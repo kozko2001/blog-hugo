@@ -5,7 +5,7 @@ steps:
 - name: submodules
   image: alpine/git
   commands:
-  - git submodule update --recursive --remote
+  - git submodule update --init
 - name: build-hugo
   image: klakegg/hugo:alpine
   environment:
