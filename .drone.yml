@@ -8,6 +8,7 @@ steps:
     HUGO_DESTINATION: /drone/src/public
   commands:
   - hugo
+  - find public/
 - name: clean
   image: docker:dind
   privileged: true
