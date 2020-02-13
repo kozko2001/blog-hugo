@@ -1,0 +1,152 @@
+#+title: Configuring emacs with doom emacs
+#+subtitle: emacs doom
+#+date: 2020-02-13
+* Emacs with doom emacs
+
+After having used *spacemacs*, then vanilla emacs, suffered during months to
+make it work with all the languages, then going back to spacemacs... you can
+see, emacs is a journey... that never ends... feels like a pathologica goal,
+masochistic, now with doom-emacs will be the same xD but I'm trying any way.
+
+One of the best selling points of doom-emacs is that feels really curated, it's
+fast (all the modes load in a lazy fashion) and also feels complete. It has
+support for all the languages, plus support features like workspaces (how
+screens are organized).
+
+So, are you onboard? Cool! from now on bear with me... this is not an actual
+tutorial! this is more like my mental notes of what I did to have emacs working
+:)
+
+[[https://github.com/hlissner/doom-emacs]]
+
+** Installing
+
+pretty easy...
+
+#+BEGIN_SRC bash
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+#+END_SRC
+
+Good to go! just execute emacs and that's it.....
+
+Now to configure you just need to modify the `~/.doom.d/init.el` where you will
+find some configuration and most of it is comment.
+
+it's important to know that doom-emacs has a few particularities
+
+- Every time you modify your init.el, you will need to refresh your installation
+  (this is what will install your emacs packages, so each time you start emacs
+  it doesn't need to connect to melpa to check what is new)
+
+  #+BEGIN_SRC bash
+  ~/.emacs.d/bin/doom sync
+  #+END_SRC
+
+- when you modify your environment variables in .bashrc or similar you need to
+  run a command, basically the envirnment variables are cached. This way it
+  doesn't matter if you execute emacs from a shell or from MacOs finder.
+
+  #+BEGIN_SRC bash
+  ~/.emacs.d/bin/doom env
+  #+END_SRC
+
+** Configuring some languages with LSP
+
+*** Python
+
+on the doom.d/init.el add the following "layers"
+
+- lsp
+- (python +lsp +pyenv)
+
+Also, you will need to install the lsp server for python
+
+#+BEGIN_SRC bash
+pip install ‘python-language-server[all]’
+#+END_SRC
+
+Now you are done, enjoy your beautiful 35 year old editor using the same backend
+as VSCode...
+
+Something that is quite normal in python is using virtualenv/pyenv/venv etc...
+that why you should add  also pyenv to the extensions of your thep ython layer.
+
+normally starting a project so it works perfectly in emacs is
+
+#+BEGIN_SRC bash
+mkdir myproject
+
+pyenv virtualenv 3.7.6 myproject
+pyenv activate myproject
+pyenv local myproject
+
+pip freeze ## check that actually the virtual env is empty
+#+END_SRC
+
+
+now when you open the files in emacs, it will automatically use the pyenv
+environment setted by the pyenv local command.
+
+finally, note that most of the lsp commands are triggered by the pref `SPC c`
+
+
+** Org Mode + Encryption
+Not much... just add the layer org... I used the following config.
+#+BEGIN_SRC emacslisp
+       (org              ; organize your plain life in plain text
+        +dragndrop       ; drag & drop files/images into org buffers
+        +hugo            ; use Emacs for hugo blogging
+        ;;+jupyter        ; ipython/jupyter support for babel
+        ;;+pandoc          ; export-with-pandoc support
+        ;;+pomodoro        ; be fruitful with the tomato technique
+        +present)        ; using org-mode for presentations
+#+END_SRC
+
+*** Encryption
+
+First for using encryption you will need to make sure you have gpg installed
+using brew or apt-get or other package systems.
+
+Once you have that, you will need a asymetric keys
+ #+begin_src bash
+ gpg --full-gen-key
+ #+end_src
+
+ Then you can export it
+
+ #+begin_src bash
+ gpg --armor --export kozko2001@gmail.com > key.asc
+ #+end_src
+
+ then you can import it using
+ #+begin_src bash
+ gpg --import key.asc
+ #+end_src
+
+ I strongly suggest saving the key inside a password management
+
+ Well now to the encryption of org files... for that we will need to use `epa`
+ epa is a nice package that already comes with emacs that allows to seamly
+ encrypt files that have .gpg extensions.
+
+ in the ~.doom.d/config.el add the following snippet
+
+ #+BEGIN_SRC emacslisp
+(require 'epa-file)
+(epa-file-enable)
+ #+END_SRC
+
+ now any file you write with gpg extension will automatically encrypted with
+ your pgp key. That is awesome!
+
+ But since you lost your file extension, when loading the file back the mode for
+ the file will be lost. But that's easy fixed by adding the following header in
+ the files
+
+ #+BEGIN_SRC
+# -*- mode:org; epa-file-encrypt-to: ("kozko2001@gmail.com") -*-
+ #+END_SRC
+
+were you can define which mode this file belongs, and also which key you want to
+use to encrypt/decrypt
