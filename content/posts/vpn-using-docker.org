@@ -1,0 +1,49 @@
+#+title: Connect to your linux PC from anywhere
+#+subtitle: vpn docker
+#+date: 2020-02-16
+* Connect to your linux PC from anywhere
+
+Sometimes you sjust need access to your local network from anyplace, in
+particular I want to have access to my emacs from anyplace, yes I could use a
+machine in a VPS or termux. But I also want to have access to particular
+processes that are currently running.
+
+Normally that would mean installing openvpn server, configure it, make it start
+at boot time... too much to work to do!!!!
+
+Hopefully there are a couple of docker openvpn server that are ready to use, the
+idea would to create a container that have all the configuration and is started
+together with docker (so at boot time) and easy to configure.
+
+[[https://github.com/kylemanna/docker-openvpn]]
+
+I recommend you to follow the instructions in the readme, the following script
+is just for me (I don't want to read it again, so I will execute and hope for
+the best :D)
+
+*Note*: You will need to have a public ddns/ip for this to work... you can use
+noip.net for that. actually there is also some dockers that you can make start
+on boot and send your current public ip.
+
+** Configuring it
+
+#+BEGIN_SRC bash
+git clone https://github.com/mobilejazz/docker-ipsec-vpn-server.git
+cd docker-ipsec-vpn-server
+./start.sh
+
+./adduser.sh jordi
+#+END_SRC
+
+save the password and the shared secret to your password manager. Now it's time to
+setup the android vpn.
+
+- Setting
+- Wifi & Internet
+- VPN
+- Create new connection
+- server address: public ip (or if you use noip the dns you have)
+- Type: IPSec Xauth PSK
+- IPSec pre-shared key: shared secret
+- username: jordi
+- password: password

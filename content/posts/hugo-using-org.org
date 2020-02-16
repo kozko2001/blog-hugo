@@ -116,12 +116,14 @@ Once you have that, you will need a asymetric keys
  Then you can export it
 
  #+begin_src bash
- gpg --armor --export kozko2001@gmail.com > key.asc
+ gpg --armor --export ${email_you_put_in_create} > public_key.asc
+ gpg --armor --export-secret-keys ${email_you_put_in_create} > private_key.asc
  #+end_src
 
  then you can import it using
  #+begin_src bash
- gpg --import key.asc
+ gpg --import private_key.asc
+ gpg --import public_key.asc
  #+end_src
 
  I strongly suggest saving the key inside a password management
@@ -150,3 +152,5 @@ Once you have that, you will need a asymetric keys
 
 were you can define which mode this file belongs, and also which key you want to
 use to encrypt/decrypt
+
+
