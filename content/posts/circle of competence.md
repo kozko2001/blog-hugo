@@ -1,7 +1,6 @@
 
 ---
 title: Circle Of Competence
-date: None
 ---
 
 

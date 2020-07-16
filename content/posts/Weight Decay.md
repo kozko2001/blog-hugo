@@ -1,7 +1,6 @@
 
 ---
 title: Weight Decay
-date: 2020-07-13
 ---
 
 
