@@ -1,4 +1,22 @@
 baseURL = "https://allocsoc.net/"
 languageCode = "en-us"
 title = "KZK's blog"
-theme = "noteworthy"
+theme = "archie"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=3 # articles per page
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://github.com/athulcajay/"
+
+googleAnalytics = "UA-30847907-1"
