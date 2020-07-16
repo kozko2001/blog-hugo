@@ -23,4 +23,3 @@ how to behave outside your circle of competence
     - 1. learn the basics, be aware your an stranger but basic info is normally easy to obtain and the first pieces of info rare the ones that have more value
     - 2. talk to somebody who has this circle of competence. be mindful, and take your time to do a bit of research and make questions
     - 3. try to connect your different ideas you already have ((also the mental models), to augment your limited understanding of this domai
-
