@@ -1,7 +1,7 @@
 
 ---
 title: Circle Of Competence
-date: July 17th, 2020]]
+date: 2020-07-17 00:00:00
 ---
 
 
