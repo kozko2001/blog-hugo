@@ -44,10 +44,10 @@ First approach android app!
 
 Project steps
   - Create a single app with a button
-  - [ ] When the button is pressed will create a new card in the test deck
-      - Validation: if the card is also sync agains ankiweb, and appears in the anki desktop!
-      - Validation: what happens if we try to create two equal cards
-  - [ ] Will create a roam deck if it don't exist and will create the card
+  - [x] When the button is pressed will create a new card in the test deck
+      - Validation: if the card is also sync agains ankiweb, and appears in the anki desktop! => **Yes, if you click the sync button in the app, in settings there is an auto sync**
+      - Validation: what happens if we try to create two equal cards => **Multiple cards are created**
+  - [x] Will create a roam deck if it don't exist and will create the card
       - Validation 
   - [ ]  Every hour will create the an anki flashcard with the time stamp
       - Validation: we can create cards from the background
