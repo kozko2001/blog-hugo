@@ -1,0 +1,16 @@
+{
+	"decks": [{
+		"name": "Roam",
+		"cards": [{
+				"type": "cloze",
+				"text": "which is the capital of Costa Rica {{c1:: San Jose}}",
+				"id": "q1"
+			},
+			{
+				"type": "cloze",
+				"text": "which is the capital of Uganda {{c1:: Kampala}}",
+				"id": "q1"
+			}
+		]
+	}]
+}
