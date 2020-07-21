@@ -3,9 +3,9 @@
 		"name": "Roam",
 		"cards": [{
 				"type": "cloze",
-				"text": "which is the capital of Costa Rica {{c1:: San Jose}}",
+				"text": "which is the capital of Costa Rica {{c1:: San Jose}} and the second? {{c2:: Puerto Limón}}",
 				"id": "q1"
-			},
+			}t,
 			{
 				"type": "cloze",
 				"text": "which is the capital of Uganda {{c1:: Kampala}}",
