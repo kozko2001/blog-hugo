@@ -49,8 +49,22 @@ Project steps
       - Validation: what happens if we try to create two equal cards => **Multiple cards are created**
   - [x] Will create a roam deck if it don't exist and will create the card
       - Validation 
-  - [ ]  Every hour will create the an anki flashcard with the time stamp
+  - [x]  Every hour will create the an anki flashcard with the time stamp
       - Validation: we can create cards from the background
-  - [ ] Define a valid json format  and create a simple test, that the app can download, and create the card
+  - [x] Define a valid json format  and create a simple test, that the app can download, and create the card
+```clojure
+{
+  decks: [{
+    name: "Roam",
+    cards: [{
+      type: 'cloze',
+      text: 'which is the capital of Costa Rica {{c1:: San Jose}}'
+    }, ...]
+   }, ....]
+}```
+
+  - [x] Define a valid json format  and create a simple test, that the app can download, and create the card
+      - Had to do a lot of hacks, cause like the ankidroid api doesn't expose enough, it allow for creation, but note to get all the notes (only by id)
+
   - [ ] from roam to deck json file check for inspiration https://github.com/chronologos/roam-to-anki
   - 
