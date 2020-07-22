@@ -61,7 +61,8 @@ Project steps
       text: 'which is the capital of Costa Rica {{c1:: San Jose}}'
     }, ...]
    }, ....]
-}```
+}
+```
 
   - [x] Define a valid json format  and create a simple test, that the app can download, and create the card
       - Had to do a lot of hacks, cause like the ankidroid api doesn't expose enough, it allow for creation, but note to get all the notes (only by id)
