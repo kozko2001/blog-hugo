@@ -50,6 +50,19 @@ You can add the secrets in the github repository, you can see the documentation 
 
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fkzk-personal%2FZ-MHFreq9L.png?alt=media&token=9a5765f6-6ef6-4be4-8eee-5073c8dcb6db)
 
+that's how the step for executing looks like
+```
+  - shell: bash
+    env:
+      ROAM_USERNAME: ${{ secrets.ROAM_USERNAME }}
+      ROAM_PASSWORD: ${{ secrets.ROAM_PASSWORD }}
+      ROAM_DATABASE: ${{ secrets.ROAM_DATABASE }}
+    run: |
+      cd export
+      npm install
+      node index.js
+      
 
+```
 
 
