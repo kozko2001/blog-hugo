@@ -131,8 +131,10 @@ Again all this code is a copy of the https://github.com/cpina/github-action-push
 ```
 
 
-Conclusions
+**Conclusions**
 
 Github actions are nice and easy to use, they remind me a lot of droneCI, which you can build the steps with docker containers and use commands inside. Which is exactly what github actions does.
 
-I understand this is a really nice feature, which is free and eases the use of CI/CD practices on more projects (specially small ones), and the abstraction of each step is just a docker container resonates really well in my head
+I understand this is a really nice feature, which is free and eases the use of CI/CD practices on more projects (specially small ones), and the abstraction of each step is just a docker container resonates really well in my head. 
+
+But on the other hand, I just feel all the inovation brought by small and motivated open source projects, has been just ripped and copied. And with it a lot of motivation...
