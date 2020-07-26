@@ -7,6 +7,8 @@ date: 2020-07-26 00:00:00
 
 Github actions allow you to create workflows likes the one you can have in a ci/cd system
 
+Right now I have a couple of scripts that allow me to write using roam and publish to my blog. and a circle ci pipeline that bring that executes the script, and I wanted to check if I could do the same but using github actions.
+
 You can go to one of your repositories, click in actions, and then in clic
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fkzk-personal%2FdPwdRfxor7.png?alt=media&token=6b3964c5-c580-4312-a5b7-f265056a4dd7)
 
@@ -51,7 +53,8 @@ You can add the secrets in the github repository, you can see the documentation 
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fkzk-personal%2FZ-MHFreq9L.png?alt=media&token=9a5765f6-6ef6-4be4-8eee-5073c8dcb6db)
 
 that's how the step for executing looks like
-```
+```clojure
+
   - shell: bash
     env:
       ROAM_USERNAME: ${{ secrets.ROAM_USERNAME }}
@@ -110,7 +113,8 @@ that's the trickiest part, I suppose I could create a secret with my a ssh key t
 
 Again all this code is a copy of the https://github.com/cpina/github-action-push-to-another-repository, just that I didn't want to delete anything, and that's why I am not using the action directly but just copying it.
 
-```
+```clojure
+
   - name: push to my blog
     shell: bash
     env:
@@ -119,12 +123,9 @@ Again all this code is a copy of the https://github.com/cpina/github-action-push
       git config --global user.email "kozko2001@gmail.com"
       git config --global user.name "kozko2001"
       git clone "https://$API_TOKEN_GITHUB@github.com/kozko2001/blog-hugo.git" "blog"
-      echo "1"
       ls blog/
-      echo "2"
       cp posts/* blog/content/posts/
-      git -C blog/ add
-      echo "3"
+      git -C blog/ add .
       git -C blog/ status
       git -C blog/ commit -m "add content from roam-export"
       git -C blog/ push
@@ -138,3 +139,6 @@ Github actions are nice and easy to use, they remind me a lot of droneCI, which 
 I understand this is a really nice feature, which is free and eases the use of CI/CD practices on more projects (specially small ones), and the abstraction of each step is just a docker container resonates really well in my head. 
 
 But on the other hand, I just feel all the inovation brought by small and motivated open source projects, has been just ripped and copied. And with it a lot of motivation...
+
+
+
