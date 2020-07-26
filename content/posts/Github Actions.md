@@ -65,4 +65,6 @@ that's how the step for executing looks like
 
 ```
 
+I got some problems on unzip the zip file in github actions, cause the file that you download from roam-research ahs something "wrong", it's just a warning but it just cancels the pipeline.
 
+I had to do a lot of trial and error commits, which is kind of ugly, I did a bit of search if you could https://github.com/nektos/act I didn't set it up, but looks promising :)
