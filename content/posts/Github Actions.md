@@ -140,5 +140,4 @@ I understand this is a really nice feature, which is free and eases the use of C
 
 But on the other hand, I just feel all the inovation brought by small and motivated open source projects, has been just ripped and copied. And with it a lot of motivation...
 
-
-
+You can find the final pipelin here https://github.com/kozko2001/roam-export/blob/master/.github/workflows/main.yml
