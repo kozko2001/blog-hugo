@@ -68,3 +68,48 @@ that's how the step for executing looks like
 I got some problems on unzip the zip file in github actions, cause the file that you download from roam-research ahs something "wrong", it's just a warning but it just cancels the pipeline.
 
 I had to do a lot of trial and error commits, which is kind of ugly, I did a bit of search if you could https://github.com/nektos/act I didn't set it up, but looks promising :)
+
+
+
+
+Transforming the roam markdown files into hugo post files, is quite easy to automate. Just a execute a couple of scripts that were already there from my integration with drone.io
+
+```
+  - name: transform to hugo markdown
+    shell: bash
+    run: |
+      mkdir posts
+      pip3 install -r transform/requirements.txt
+      cd zip
+      find . -name \*.md -exec python3 ../transform/blog.py -i {} -o ../posts/ \;
+```
+
+Booom Done!
+
+
+
+
+Push to my other repository where I store my blog :)
+
+that's the trickiest part, I suppose I could create a secret with my a ssh key that I only use for push to the repository, but I saw an github action already that instead uses github token. I will copy part of this action in my workflow. Thanks cpina for the code ^^ https://github.com/cpina/github-action-push-to-another-repository
+
+
+  - First, we need to generate an github API token
+
+
+      - Go to the Github Settings (on the right hand side on the profile picture)
+      - On the left hand side pane click on "Developer Settings"
+      - Click on "Personal Access Tokens" (also available at https://github.com/settings/tokens)
+      - Generate a new token, choose "Repo". Copy the token.
+  - Now we need to add this token as a secret in the repository:
+
+      - Go to the Github page for the repository that you push from, click on "Settings"
+      - On the left hand side pane click on "Secrets"
+      - Click on "Add a new secret" and name it "API_TOKEN_GITHUB"
+
+
+Now we can do a git clone with the token, and will allow us to do a a push as well.
+
+Again all this code is a copy of the https://github.com/cpina/github-action-push-to-another-repository, just that I didn't want to delete anything, and that's why I am not using the action directly but just copying it.
+
+
