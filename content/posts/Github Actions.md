@@ -106,10 +106,33 @@ that's the trickiest part, I suppose I could create a secret with my a ssh key t
       - Go to the Github page for the repository that you push from, click on "Settings"
       - On the left hand side pane click on "Secrets"
       - Click on "Add a new secret" and name it "API_TOKEN_GITHUB"
-
-
-Now we can do a git clone with the token, and will allow us to do a a push as well.
+  - Now we can do a git clone with the token, and will allow us to do a a push as well.
 
 Again all this code is a copy of the https://github.com/cpina/github-action-push-to-another-repository, just that I didn't want to delete anything, and that's why I am not using the action directly but just copying it.
 
+```
+  - name: push to my blog
+    shell: bash
+    env:
+      API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+    run: |
+      git config --global user.email "kozko2001@gmail.com"
+      git config --global user.name "kozko2001"
+      git clone "https://$API_TOKEN_GITHUB@github.com/kozko2001/blog-hugo.git" "blog"
+      echo "1"
+      ls blog/
+      echo "2"
+      cp posts/* blog/content/posts/
+      git -C blog/ add
+      echo "3"
+      git -C blog/ status
+      git -C blog/ commit -m "add content from roam-export"
+      git -C blog/ push
+```
 
+
+Conclusions
+
+Github actions are nice and easy to use, they remind me a lot of droneCI, which you can build the steps with docker containers and use commands inside. Which is exactly what github actions does.
+
+I understand this is a really nice feature, which is free and eases the use of CI/CD practices on more projects (specially small ones), and the abstraction of each step is just a docker container resonates really well in my head
