@@ -4,6 +4,3 @@
 [submodule "themes/noteworthy"]
 	path = themes/noteworthy
 	url = https://github.com/kimcc/hugo-theme-noteworthy.git
-[submodule "themes/archie"]
-	path = themes/archie
-	url = https://github.com/athul/archie
