@@ -10,6 +10,7 @@ Setup of my Laptop
   - [ ] install iterm2
   - [ ] Install hammersponn with my configuration https://github.com/kozko2001/hammerspoon
   - [ ] Install prezto (trying it out) (https://github.com/sorin-ionescu/prezto)
+  - [ ] install keepassxc + dropbox to sync the passwords.
   - [ ] Install python with pyenv (check this post https://varrette.gforge.uni.lu/blog/2017/11/22/using-pyenv-virtualenv-direnv/)
 
 ```bash
