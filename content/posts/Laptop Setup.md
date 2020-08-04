@@ -22,3 +22,4 @@ pyenv global 3.8.5
   - [ ] direnv <--- allow you to execute commands things you can do
       - load some specific environment variables for specific projects (like secrets)
       - load specific environment for python or node, without having to use nvm or pyenv-virtualenv that are slooooow
+  - [ ] Marta 
