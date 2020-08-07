@@ -9,4 +9,3 @@ Today I just discovered that KeepassXC, can do something I used to be envying of
 
 
 You can check the manual to set it up ( https://keepassxc.org/docs/KeePassXC_UserGuide.html#_auto_type), I did change my global binding to be special hard to hit on other apps.
-
