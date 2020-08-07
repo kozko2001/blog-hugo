@@ -13,5 +13,4 @@ If we never learn to take something apart, test our assumptions about it and rec
 
 There are two main techniques to establish first principles,
   - [[Socratic Questioning]]
-	
-      - 
+	- [[Five Why's]]
