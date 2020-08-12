@@ -37,3 +37,5 @@ What does $$P(Positive | "happy")$$  mean? {{c1:: It means, probability of being
 
 
 ![[Naive Bayes]]
+
+### Week 3: Vector spaces
