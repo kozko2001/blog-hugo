@@ -58,7 +58,7 @@ Project steps
     name: "Roam",
     cards: [{
       type: 'cloze',
-      text: 'which is the capital of Costa Rica {{c1:: San Jose}}'
+      text: 'which is the capital of Costa Rica San Jose'
     }, ...]
    }, ....]
 }
