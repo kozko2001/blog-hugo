@@ -39,3 +39,14 @@ What does $$P(Positive | "happy")$$  mean? It means, probability of being of cla
 ![[Naive Bayes]]
 
 ### Week 3: Vector spaces
+ - How you calculate the vector norm (euclidean distance) in numpy? `np.linalg.norm(a - b)`  
+ 
+
+
+What is the problem of using euclidean distance for word vector representation? depending on number of occurrence of the words, the distance can be different and what we can use to overcome this problem? Cosine similarity  
+ 
+
+
+![[Screenshot 2020-08-12 at 11.33.22.png]]
+ 
+ ![[Cosine Similarity]]
