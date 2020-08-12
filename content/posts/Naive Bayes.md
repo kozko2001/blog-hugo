@@ -5,7 +5,6 @@ date: 2020-08-11 00:00:00
 ---
 ---
 
-### Naive Bayes
 
 
 On Naive Bayes we estimate the probability for each class by using the joint probability of the words in classes. The Naive Bayes formula is just the ratio between these two  probabilities, the products of the priors and the likelihoods
