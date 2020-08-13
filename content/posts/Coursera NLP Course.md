@@ -51,5 +51,4 @@ What is the problem of using euclidean distance for word vector representation? 
  
  ![[Cosine Similarity]]
  
- - Principal Component analysis
-	- 
+ ![[Eigenvector]]
