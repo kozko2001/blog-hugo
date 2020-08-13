@@ -50,3 +50,6 @@ What is the problem of using euclidean distance for word vector representation? 
 ![[Screenshot 2020-08-12 at 11.33.22.png]]
  
  ![[Cosine Similarity]]
+ 
+ - Principal Component analysis
+	- 
