@@ -15,9 +15,9 @@ date: 2020-08-09 00:00:00
 * With a frequency table we can create a frequency representation of the tweet as [1 <- bias, sum of positive frequencies, sum of negative frequencies]  
 	* ![](<.././images/FrequencyTable.png>)
 * Preprocessing:
-	* Eliminate [[Stop Words]] and punctuation characters.
- 	* ![[Stemming]]
-* ![[Logistic Regression- Cost]]
+	* Eliminate [Stop Words](../stop-words) and punctuation characters.
+ 	* 
+* 
 
 ### Week 2: Naive Bayes
 
@@ -28,7 +28,7 @@ What P(A | B ) means?  frequency of happening A if we know that B already happen
 How do you express the probability of A, once we already now event B happened P(A | B)  
 
 
-![[Bayes Rule]]
+
 	-  how can you rewrite $$P(A | B)$$ using Bayes Rule? $$P(A | B) = P(B | A) * \frac {P(A)} {P(B)}$$  
 
 
@@ -36,7 +36,7 @@ What does $$P(Positive | "happy")$$  mean? It means, probability of being of cla
 
 
 
-![[Naive Bayes]]
+
 
 ### Week 3: Vector spaces
  - How you calculate the vector norm (euclidean distance) in numpy? `np.linalg.norm(a - b)`  
@@ -49,6 +49,6 @@ What is the problem of using euclidean distance for word vector representation? 
 
 ![](<.././images/Screenshot 2020-08-12 at 11.33.22.png>)
  
- ![[Cosine Similarity]]
  
- ![[Eigenvector]]
+ 
+ 
