@@ -1,6 +1,6 @@
 
 ---
-title: 📖: Mental Models
+title: Mental Models
 date: 2020-08-18 00:00:00
 ---
 ---
