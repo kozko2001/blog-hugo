@@ -18,6 +18,12 @@ Machine learning, is making this process up-side-down, giving examples of matche
 
 ![](<.././images/Screenshot 2020-08-25 at 09.05.51.png>)
 
+### Caveats
+
+A compromise is that, now the behaviour of the program is driven by the data, we cannot understand the program. the model is not **describable**
+
+Also any kind of incorrect data / bias will imply errors in the program
+
 ### Reference:
 
 Fast AI book: https://github.com/fastai/fastbook/blob/master/01_intro.ipynb
