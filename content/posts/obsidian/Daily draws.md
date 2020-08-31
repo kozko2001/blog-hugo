@@ -35,4 +35,6 @@ date: 2020-08-25 00:00:00
 
 > 
 
-> ![](<.././images/Ilustración_sin_título 3.png>)
+> 
+
+> ![](./images/Ilustración_sin_título 3.png)`
