@@ -13,7 +13,7 @@ In the open circuit, you always execute a piece of code that doesn't depend on t
 
 After a while you move to the half open state. Basically trying a request to go through the real service. if the service is available again, great we close the circuit and the system is working. if not we move to the open circuit state.
 
-![](<../circuit-break.png>)
+![](<.././images/circuit-break.png>)
 
 The benefit we get, is to limit the damage that a single service down could lead to the whole system down.
 
