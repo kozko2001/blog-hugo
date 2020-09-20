@@ -55,6 +55,18 @@ but we don't want `M[M[B]]` we want `M[B]`. so we need a new function `flatten` 
 
 normally we use the flatmap function, which does the map of the functor and then the flatten.
 
+Finally, a monad needs also to be able to wrap the object so `Option(0)` which in haskell is named `return` function
+
+```Mondad = Functor + flatmap /bind + return```
+
 Why is the monad useful? it allow us to compose functions.
 
 Reference: https://www.youtube.com/watch?v=OSuu8zBBNAA
+
+### Questions!
+Which is the type of a Functor Map? `f :: (a -> b) -> T[A] -> T[B]`  
+
+When to use Functors?  When we don't need to extend the type, for example in option, when we have to work with an option, but we don't have any possible error computation  
+
+
+What functions a Monad need ? flatten, map and result  
