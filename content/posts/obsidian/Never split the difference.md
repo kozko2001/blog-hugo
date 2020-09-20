@@ -1,6 +1,6 @@
 
 ---
-title: [Book] Never split the difference
+title: Book Never split the difference
 date: 2020-09-20 00:00:00
 ---
 ---
