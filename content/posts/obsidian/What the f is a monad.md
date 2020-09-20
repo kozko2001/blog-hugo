@@ -37,7 +37,25 @@ map(f) :: F[A] -> F[B]
 
 ### What is a monad
 
+Monads are similar, but **f** instead of converting from **A** to **B**, f converts from **A** to **M[B]**, M being a generic wrapper
 
+```
+f :: A -> M[B]
+```
+
+given that we have f, we want to be able to transform from **M[A]** to **M[B]**. if we have a Functor and apply it will happen is:
+
+```
+map ::  (A -> B) -> M[A] -> M[B]
+
+map(f) :: M[A] -> M[M[B]]
+```
+
+but we don't want `M[M[B]]` we want `M[B]`. so we need a new function `flatten` that converts `M[M[_]]` to `M[_]`
+
+normally we use the flatmap function, which does the map of the functor and then the flatten.
+
+Why is the monad useful? it allow us to compose functions 
 
 
 Reference: https://www.youtube.com/watch?v=OSuu8zBBNAA
