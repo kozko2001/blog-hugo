@@ -69,3 +69,6 @@ Project steps
 
   - [ ] from roam to deck json file check for inspiration https://github.com/chronologos/roam-to-anki
   - 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTYwNjUwODQxN119
+-->
