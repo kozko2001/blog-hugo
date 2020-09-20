@@ -55,7 +55,6 @@ but we don't want `M[M[B]]` we want `M[B]`. so we need a new function `flatten` 
 
 normally we use the flatmap function, which does the map of the functor and then the flatten.
 
-Why is the monad useful? it allow us to compose functions 
-
+Why is the monad useful? it allow us to compose functions.
 
 Reference: https://www.youtube.com/watch?v=OSuu8zBBNAA
