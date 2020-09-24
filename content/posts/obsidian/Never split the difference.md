@@ -40,17 +40,12 @@ According to the book [Thinking,  fast and slow](../thinking-fast-and-slow) ther
 
 you might have aversion of negotiation, and you should over it. Not need to like it, but understand that is how the world works.
 
-### chapter 2 - Be a mirror
-
-
-
-## Highlight of the book
 
 ### Chapter 2
 
 
 
-Calm the schizophrenic, listen, don't priotarize your argument, stop thinking and focus on the other person, do real active listening
+Calm the schizophrenic, listen, don't prioritize your argument, stop thinking and focus on the other person, do real active listening
 
 
 The idea is to make them feel safe enough, that they talk and talk. to identify the **needs of your counterpart**.
@@ -66,6 +61,8 @@ going to fast can be a mistake, cause people can feel like we are not really lis
 
 The voice is a important part of our comunication, and can have a big impact.
 
+
+###### voices
 
 
 late-night FM DJ voice
@@ -83,99 +80,100 @@ positive/playful voice
 
 assertive voice
 	- very rare cases to use it,
-	- 
+	
 
+##### mirroring
 
 
+is essentially imitation, 
 
-```
 
+we copy each other to comfort each other
 
 
-Good negotiators, going in, know they have to be ready for possible surprises; great negotiators aim to use their skills to reveal the surprises they are certain exist.
+it's unconscious
+	- personal: like when I go to Menorca and my catalan accent changes
 
 
+mirroring, when done with consciously is **the art of insinuating similarity**.
+	- "Trust me", " You and I we're alike"
 
-Too often people find it easier just to stick with what they believe. Using what they’ve heard or their own biases, they often make assumptions about others even before meeting them. They even ignore their own perceptions to make them conform to foregone conclusions. These assumptions muck up our perceptual windows onto the world, showing us an unchanging—often flawed—version of the situation. Great negotiators are able to question the assumptions that the rest of the involved players accept on faith or in arrogance, and thus remain more emotionally open to all possibilities, and more intellectually agile to a fluid situation.
 
+By repeting back (the last 3 words or the critical words). you trigger this mirroring insting and your counterpart will inevitably elaborate on what was just said, while sustaining the process of connecting
 
 
-I hadn’t yet learned to be aware of a counterpart’s overuse of personal pronouns—we/they or me/I. The less important he makes himself, the more important he probably is (and vice versa).
+The intention behind most mirrors should be "Please, help me understand"
 
+### Chapter 3 - Don't feel their pain, label it
 
 
-There’s one powerful way to quiet the voice in your head and the voice in their head at the same time: treat two schizophrenics with just one pill. Instead of prioritizing your argument—in fact, instead of doing any thinking at all in the early goings about what you’re going to say—make your sole and all-encompassing focus the other person and what they have to say. In that mode of true active listening—aided by the tactics you’ll learn in the following chapters—you’ll disarm your counterpart. You’ll make them feel safe. The voice in their head will begin to quiet down.
 
+good negotiators don't deny or ignore emotions, they identify and influence them
+	- They are able to precisely label them
+	- and once labeled, they talk about them without getting wound up (agitated)
+	- emotions is a tool
 
+##### tactical empathy
 
-The goal is to identify what your counterparts actually need (monetarily, emotionally, or otherwise) and get them feeling safe enough to talk and talk and talk some more about what they want. The latter will help you discover the former. Wants are easy to talk about, representing the aspiration of getting our way, and sustaining any illusion of control we have as we begin to negotiate; needs imply survival, the very minimum required to make us act, and so make us vulnerable.
 
+empathy is `the ability to recognize the perspective of a counterpart, and the vocalization of that recognition`
+	- so, basically empaty is paying attention to another human being, and commiting to understand their world
 
 
-neither wants nor needs are where we start; it begins with listening, making it about the other people, validating their emotions, and creating enough trust and safety for a real conversation to begin.
+one step beyond that is **tactical empathy**
+	- empathy
+	- but also hearing what is behind those feelings
+	- so you increase your influence in all the moments that follow
+	- bringing our attentiotn to both, the emotional obstacles, and the potential pathways to getting an agreement done.
 
 
+empathy is **not about being nice or agreeing with the other side**. It's about understand them, understand their position why their actions make sense and what forces move them.
 
-The approach was half MSU—Making Shit Up—and half a sort of sales approach—basically trying to persuade, coerce, or manipulate in any way possible.
+##### Labeling
 
 
 
-trying to be a problem solver, not a people mover.
+Labeling is a way of validating someone's emotion by acknowledging it.
+	- Think of labeling as a shortcut to intimacy, a time-saving emotional hack
 
 
+Labeling has a special advantage when your counterpart is tense
+	- exposing negative thought to daylight
+	- makes them seem less frightening
 
-Going too fast is one of the mistakes all negotiators are prone to making. If we’re too much in a hurry, people can feel as if they’re not being heard and we risk undermining the rapport and trust we’ve built.
 
+Labeling allow you to diffuse negative aspects, and reinforce good ones.
 
 
-There are essentially three voice tones available to negotiators: the late-night FM DJ voice, the positive/playful voice, and the direct or assertive voice.
 
+Labels almost always being with roughly the same words
+	- (It seems like, it sounds like, it looks like)
+	- notice we don't use **I**, cause I get people guard up (seems like you are more interested in yourself)
 
 
-Most of the time, you should be using the positive/playful voice. It’s the voice of an easygoing, good-natured person. Your attitude is light and encouraging. The key here is to relax and smile while you’re talking. A smile, even while talking on the phone, has an impact tonally that the other person will pick up on.
+Then you just wait, **silence and listen**
+	- if you are right, they will explain
+	- if you are not right, you can just say, "I didn't say that was what it was. I just said it seems like that"
 
 
 
-When people are in a positive frame of mind, they think more quickly, and are more likely to collaborate and problem-solve (instead of fight and resist). It applies to the smile-er as much as to the smile-ee: a smile on your face, and in your voice, will increase your own mental agility.
+People emotions have two levels
+	- **presenting**: what you can see and hear
+	- **underlying**: what motivate the behavior
 
 
+Labeling negative emotions diffuses them, labeling positives reinforces them
 
-Talking slowly and clearly you convey one idea: I’m in control. When you inflect in an upward way, you invite a response.
+##### accusation audit
 
+1. List all the bad things your counterpart could say about you.
+2. label the emotions of
+3. and provide a replace with good ones
 
+> In case you're about volunteering to role-play with me in front of the class, I want to tell you in advance, it's going to be horrible. But those of you who do volunteer will probably get more out of this than anyone else.
 
-Mirroring, also called isopraxism, is essentially imitation. It’s another neurobehavior humans (and other animals) display in which we copy each other to comfort each other. It can be done with speech patterns, body language, vocabulary, tempo, and tone of voice. It’s generally an unconscious behavior—we are rarely aware of it when it’s happening—but it’s a sign that people are bonding, in sync, and establishing the kind of rapport that leads to trust.
 
 
+Remember you're dealing with a person who want to be appreciated and understood. So use labels to reinforce and encourage positive perceptions and dynamics.
 
-We fear what’s different and are drawn to what’s similar.
 
-
-
-Mirroring, then, when practiced consciously, is the art of insinuating similarity. “Trust me,” a mirror signals to another’s unconscious, “You and I—we’re alike.”
-
-
-
-By repeating back what people say, you trigger this mirroring instinct and your counterpart will inevitably elaborate on what was just said and sustain the process of connecting.
-
-
-
-Just the words. It’s almost laughably simple: for the FBI, a “mirror” is when you repeat the last three words (or the critical one to three words) of what someone has just said.
-
-
-
-I only half-jokingly refer to mirroring as magic or a Jedi mind trick because it gives you the ability to disagree without being disagreeable.
-
-
-
-If you take a pit bull approach with another pit bull, you generally end up with a messy scene and lots of bruised feelings and resentment. Luckily, there’s another way without all the mess.
-
-
-
-but to deliver the mirror in an inquisitive tone. The
-
-
-
-but to deliver the mirror in an inquisitive tone. The intention behind most mirrors should be “Please, help me understand.”
-
-```

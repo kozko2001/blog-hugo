@@ -4,8 +4,6 @@ title: Mental Models
 date: 2020-08-18 00:00:00
 ---
 ---
-
-
 > 
 
 > ---
@@ -97,8 +95,6 @@ date: 2020-08-18 00:00:00
 
 
 
-
-
 > 
 
 > ---
@@ -163,8 +159,6 @@ date: 2020-08-18 00:00:00
 
 > "but learning all by yourself, is costly and slow. learning from the experience of others is more productive"
 
-
-
 > 
 
 > ---
@@ -203,8 +197,6 @@ date: 2020-08-18 00:00:00
 
 > 
 
-
-
 > 
 
 > ---
@@ -242,9 +234,4 @@ date: 2020-08-18 00:00:00
 > Also it's a useful model for *[Persuasion](../persuasion)*, showing that you had make into account the effects of effects, shows that you had a much deeper thought of the idea.
 
 > 
-
-
-
-
-
 

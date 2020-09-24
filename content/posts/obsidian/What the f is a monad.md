@@ -64,7 +64,7 @@ Why is the monad useful? it allow us to compose functions.
 Reference: https://www.youtube.com/watch?v=OSuu8zBBNAA
 
 ### Questions!
-Which is the type of a Functor Map? `f :: (a -> b) -> T[A] -> T[B]`  
+Which is the type of a Functor Map? `f : (a -> b) -> T[A] -> T[B]`  
 
 When to use Functors?  When we don't need to extend the type, for example in option, when we have to work with an option, but we don't have any possible error computation  
 
