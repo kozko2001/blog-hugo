@@ -50,6 +50,44 @@ you might have aversion of negotiation, and you should over it. Not need to like
 
 
 
+Calm the schizophrenic, listen, don't priotarize your argument, stop thinking and focus on the other person, do real active listening
+
+
+The idea is to make them feel safe enough, that they talk and talk. to identify the **needs of your counterpart**.
+
+
+not try to be a problem solver, but a **people mover**
+
+
+going to fast can be a mistake, cause people can feel like we are not really listening, giving up all the personal relationship we built so far.
+
+#### The voice
+
+
+The voice is a important part of our comunication, and can have a big impact.
+
+
+
+late-night FM DJ voice
+	- calm down
+	- slow and clearly -> convey the idea I'm in **control**
+
+
+positive/playful voice
+	- most of the time
+	- easigoing, good-natured person
+	- attitude light and encouraging
+	- smile while talking
+	- when people are in a positive frame of mind, they think quickly and is easy for collaborate, instead of resist
+
+
+assertive voice
+	- very rare cases to use it,
+	- 
+
+
+
+
 ```
 
 
