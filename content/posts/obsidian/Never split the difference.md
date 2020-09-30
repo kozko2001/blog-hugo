@@ -177,3 +177,4 @@ Labeling negative emotions diffuses them, labeling positives reinforces them
 Remember you're dealing with a person who want to be appreciated and understood. So use labels to reinforce and encourage positive perceptions and dynamics.
 
 
+### Chapter 3: 
