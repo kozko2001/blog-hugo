@@ -177,4 +177,49 @@ Labeling negative emotions diffuses them, labeling positives reinforces them
 Remember you're dealing with a person who want to be appreciated and understood. So use labels to reinforce and encourage positive perceptions and dynamics.
 
 
-### Chapter 3: 
+### Chapter 3: Be aware of "Yes", master "No"
+
+
+
+For a lot of time, we were tricked to say yes, and now, we are defensive when force to say yes, we don't want to
+
+### NO
+
+
+When we say No, we feel in control of our decisions
+
+
+No is the start of the negotiation, not the end. We are afraid of others saying no, but it's the begining of understanding and collaboration
+	- Give your counterpart the right to say no, and the negotiation environment will become way more productive
+
+
+It all comes down to the universal human need for autonomy (feel in control of our lives)
+	- With No
+
+
+No is not always the same meaning, No could mean:
+	- I am not yet ready to agree
+	- You are making me uncomfortable
+	- I do not understand
+	- I want something else
+	- I need more information
+	- I want to talk over with someone else
+
+### Yes
+There are different yeses, that all sou
+
+
+be aware of the **counterfeit yes**
+	- Is the yes that we say cause it's easier than saying no.
+	- But the deal is not made
+	- actually, people 
+
+
+confirmation yes
+	- dd
+
+
+commitment yes
+	- a true agreement 
+	- that leads to action
+
