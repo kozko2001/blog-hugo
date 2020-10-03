@@ -183,10 +183,11 @@ Remember you're dealing with a person who want to be appreciated and understood.
 
 For a lot of time, we were tricked to say yes, and now, we are defensive when force to say yes, we don't want to
 
-### NO
+##### NO
 
 
 When we say No, we feel in control of our decisions
+> **No**, it's a reaffirmation of autonomy
 
 
 No is the start of the negotiation, not the end. We are afraid of others saying no, but it's the begining of understanding and collaboration
@@ -205,21 +206,49 @@ No is not always the same meaning, No could mean:
 	- I need more information
 	- I want to talk over with someone else
 
-### Yes
-There are different yeses, that all sou
+
+##### Yes
+There are different yeses, and you need to differentiate
+
 
 
 be aware of the **counterfeit yes**
 	- Is the yes that we say cause it's easier than saying no.
 	- But the deal is not made
-	- actually, people 
+	- actually, people will retract of this yes, when the moment is easier (like in a phone call)
 
 
 confirmation yes
-	- dd
 
 
 commitment yes
 	- a true agreement 
 	- that leads to action
+
+
+##### Making them in control
+
+
+
+Ask questions, where they can easily say No
+
+
+force them to feel in control
+
+
+makes the counterpart engage and thinking
+	- Ask the other party what they don't want
+	- Ask a question that you know is totally wrong
+
+### Chapter 5 - Trigger the two words "That's Right", that transform any negotiation
+
+
+
+Try to make them say "That's Right", when you are in a deadlock
+	- Rephrase how they see their world, make them feel understood.
+	- combined with labeling
+
+
+be aware that if they say "You're right", then probably you didn't convinced them, they just saying so you don't bother more.
+
 
