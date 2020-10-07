@@ -46,3 +46,6 @@ Now the program are not equivalent, why? Cause `Math.random()` is not a pure fun
 
 A pure function, given the same input, always return the same output. 
 
+::: anki 07e9ef6e-180a-445b-a8f8-cb277f8decd3
+What is referential transparency? means I can substitute variables, by their definition and the program is still the same. #Flashcard
+:::
