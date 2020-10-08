@@ -9,7 +9,7 @@ date: 2020-10-08 00:00:00
 
 Bosses **guide** a **team** to achieve **results**
 
-**Guidance**: or feedback -> often we don't give good guidancecause we don't know how the other will receive it (fear of being socially awkward, I am being to nice or too mean? )
+**Guidance**: or feedback -> often we don't give good guidance cause we don't know how the other will receive it (fear of being socially awkward, I am being to nice or too mean? )
 
 **Team Building**: Figuring out right people for the right role (hiring, firing, promoting). And when the team is set... how to have them motivated.
 
@@ -40,9 +40,9 @@ Radical candor is based in two "sentences":
 understand what motivates each person on your team
 
 2 archetypes of persons:
-- **Rockstar** (is rock solid)
+- **Rock Star** (is rock solid)
 	- stability, ambitious outside of work, content in life, happy in current role
-- **SuperStart**
+- **Super Start**
 	- change agent (cul inquiet), ambitious at work, want new opportunities
 
 different type of learning:
@@ -104,7 +104,7 @@ How to treat each archetype?
 - **Calendar**: put things that you need to do yourself in the calendar
 - **Free at work**: everybody is going to be able to bring their best, if they feel autonomous.
 - **Building trust**: always takes times
-- **Demostrating opennes**: When somebody shares something with you you should always be respectful
+- **Demonstrating openness**: When somebody shares something with you you should always be respectful
 - **Recognize your own emotions**: share with the team how are you feeling
 - **Ask questions**: when somebody is frustrated/angry etc... keep asking questions and listening, you will understand the real issue
 - **Tell others how to feel: DON'T DO THAT **
@@ -113,4 +113,58 @@ How to treat each archetype?
 
 - **Guidance**: Is the key of being a boss, you need to get, give and encourage. bot praise and criticism.
 - Is there anything I can do or stop doing that would make it easier to work with me?
-- Don't critize the criticism, it's a gift, try to understand it, not debate it.
+- Don't critique the criticism, it's a gift, try to understand it, not debate it.
+- critics => situation + behavior + impact
+- Clarity of guidance gets measured in other person ear, not your moth
+- Don't personalize: 
+	-  ❌"You are wrong "
+	-  ✅ "I think you are wrong"
+- Make understand that when you critic/challenge you do it, because you care.
+- Spend half the time looking backward, half planning (future)
+
+# Chapter 7
+
+Techniques to avoid boredom and burnout
+
+- First conversation
+	- Try to learn what motivates people
+	- ask for how was their life, brothers? kids? etc...
+	- Don't push
+- Second
+	- Drams,
+	- Don't ask for professional aspirations... they will tell you what you want to hear
+	- ask for 3 to 5 drams for the future
+	- also ask for which skills are needed
+- Thrird
+	- 18 month plan
+	- What I should prioritize to go to the direct of any dream?
+	- can be scary to follow you dreams directions -> might need some encouragement
+
+# Chapter 8
+
+Goal: achieve **results collaboratively** that you could never **achieve individually**
+
+- **1:1**
+	- Best opportunities to really listing, and care personally -> listen and clarify
+	- frequency: 1 a week with each team member
+	- is the other person's agenda, not yours -> Listen mother fucka!
+	- show up, don't easily reschedule.
+	- encourage new ideas -> so they can grow stronger
+	- flags:
+		- **cancellations** -> too often might mean is not useful for the other person
+		- **only updates **-> encourage them to use better this time
+		- **no criticism** -> you are not good enough at getting critics
+- **Think time** -> block time to think, and make it sacred!
+- **Bit debate meetings**:
+	- state in front that is not gonna be a decision after the meeting
+	- pressure between who really want to discuss vs who want to get a decision
+- **Execute time**
+	- An important job of a bis is to make sure there is time to make the actual work
+	- block time in calendar
+- **Be conscious of the culture**
+	- culture in team has a really strong effect in results
+	- and leaders personality has a strong effect in culture of the team
+		- people are listening -> everything you say could be used against
+		- clarify
+- **Learn**:
+	- Shit happens...  is your responsibility to learn from it. and make a change -> prevent to happen again.
