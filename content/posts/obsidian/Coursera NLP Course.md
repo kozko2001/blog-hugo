@@ -20,23 +20,13 @@ date: 2020-08-09 00:00:00
 * 
 
 ### Week 2: Naive Bayes
-
-
-What P(A | B ) means?  frequency of happening A if we know that B already happened  
-
-
-How do you express the probability of A, once we already now event B happened P(A | B)  
-
-
-
+-  What P(A | B ) means?  frequency of happening A if we know that B already happened  
+-   How do you express the probability of A, once we already now event B happened P(A | B)  
+- 
 	-  how can you rewrite $$P(A | B)$$ using Bayes Rule? $$P(A | B) = P(B | A) * \frac {P(A)} {P(B)}$$  
+-  What does $$P(Positive | "happy")$$  mean? It means, probability of being of class "positive" given that it contains the word "happy"  
 
-
-What does $$P(Positive | "happy")$$  mean? It means, probability of being of class "positive" given that it contains the word "happy"  
-
-
-
-> 
+- > 
 
 > ---
 
@@ -50,23 +40,11 @@ What does $$P(Positive | "happy")$$  mean? It means, probability of being of cla
 
 > 
 
-> 
+> - On Naive Bayes we estimate the probability for each class by using the joint probability of the words in classes. The Naive Bayes formula is just the ratio between these two  probabilities, the products of the priors and the likelihoods
 
-> 
+> -  Why is Naive Bayes, named naive? Cause it makes the assumption that features used for classification are independent  
 
-> On Naive Bayes we estimate the probability for each class by using the joint probability of the words in classes. The Naive Bayes formula is just the ratio between these two  probabilities, the products of the priors and the likelihoods
-
-> 
-
-> 
-
-> Why is Naive Bayes, named naive? Cause it makes the assumption that features used for classification are independent  
-
-> 
-
-> 
-
-> Algorithm:
+> -  Algorithm:
 
 > 	-  Get the frequency of each word in each class `freq(word, class)`
 
@@ -84,11 +62,7 @@ What does $$P(Positive | "happy")$$  mean? It means, probability of being of cla
 
 > 	-  `likelihood` is $$\prod_{i}^{m} \frac {P(w_i  | positive)} {P(w_i | negative )}$$ 
 
-> 
-
-> 
-
-> Log Likelihood
+> - Log Likelihood
 
 > 	-  Why we use Log Likelihood for numeric stability, preventing underflow  
 
@@ -96,30 +70,18 @@ What does $$P(Positive | "happy")$$  mean? It means, probability of being of cla
 
 > 	-  how you can decompose $$log(a * b)$$ $$log(a) + log(b)$$  
 
-> 
+> -  We can rewrite naive bayes using log likelihood as... $$log(\frac {P(positive)}{P(negative}) + log(\prod_{i}^{m} \frac {P(w_i  | positive)} {P(w_i | negative )})$$, Since now is the logarithm a sentence will be positive if log likelihood is > 0
 
-> 
-
-> We can rewrite naive bayes using log likelihood as... $$log(\frac {P(positive)}{P(negative}) + log(\prod_{i}^{m} \frac {P(w_i  | positive)} {P(w_i | negative )})$$, Since now is the logarithm a sentence will be positive if log likelihood is > 0
-
-> 
-
-> 
-
-> Assumptions
+> -  Assumptions
 
 > 	-  Naive Bayes assumes that features are independent, in NLP specifically means that there is no overlap of meaning in the words, which is not true. For example `It is sunny and hot today` sunny and hot are not independent, they appear often together. This can bias the probabilities.
 
 ### Week 3: Vector spaces
  - How you calculate the vector norm (euclidean distance) in numpy? `np.linalg.norm(a - b)`  
  
-
-
-What is the problem of using euclidean distance for word vector representation? depending on number of occurrence of the words, the distance can be different and what we can use to overcome this problem? Cosine similarity  
+- What is the problem of using euclidean distance for word vector representation? depending on number of occurrence of the words, the distance can be different and what we can use to overcome this problem? Cosine similarity  
  
-
-
-![](<.././images/Screenshot 2020-08-12 at 11.33.22.png>)
+- ![](<.././images/Screenshot 2020-08-12 at 11.33.22.png>)
  
  > 
 

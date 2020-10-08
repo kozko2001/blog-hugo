@@ -12,9 +12,7 @@ If we never learn to take something apart, test our assumptions about it and rec
 When the environment changes. we just continue as if things were the same, making costly mistakes along the way
 
 There are two main techniques to establish first principles,
-
-
-> 
+- > 
 
 > ---
 
@@ -39,6 +37,4 @@ There are two main techniques to establish first principles,
 > 5. Examining consequences and implications ( What are the consequences if I am wrong?)
 
 > 6. Questioning the original questions (Why did I think that? was I correct?)
-
-
-
+- 

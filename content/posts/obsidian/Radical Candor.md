@@ -26,26 +26,18 @@ Radical candor is based in two "sentences":
 # Chapter 2 
 ![](<../radical_candor.png>)
 
-
-
-difference between **radical candor** and **obnoxious aggression** is:
+- difference between **radical candor** and **obnoxious aggression** is:
 	-  it's not mean, it's clear
 	-  no belittle embarrass people in public
-
-
-Most people prefer a challenging jerk than a nice incompetent.
-
-
-How to start the wheel of feedback, start asking for feedback (give example) and when start giving it, start  by praising
-
-
-If a person is bold enough to give you feedback, do not critique their criticism
-
-
-people who are more concern for the** right answer**, instrad if **being right** are better bosses.
-
-
-Not personalize the feedback, instead of  "When they are not good enough" say "When their work is not good enough"
+- Most people prefer a challenging jerk than a nice incompetent.
+- How to start the wheel of feedback, start asking for feedback (give example) and when start giving it, start  by praising
+- If a person is bold enough to give you feedback, do not critique their criticism
+- people who are more concern for the** right answer**, instrad if **being right** are better bosses.
+- Not personalize the feedback, instead of  "When they are not good enough" say "When their work is not good enough"
 
 # Chapter 3
 
+understand what motivates each person on your team
+
+- **Rockstar** (is rock solid)
+	- 

@@ -22,8 +22,5 @@ You can check the https://www.youtube.com/watch?v=LXm_6eq0Cs4 for more informati
 
 
 ### Conclusions:
-
-
-Initialization plays a key role in Neural networks
-
-
+- Initialization plays a key role in Neural networks
+- 

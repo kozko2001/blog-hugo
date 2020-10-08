@@ -19,37 +19,25 @@ Fool's choice paradox you have only two options, tell the truth and make an enem
 
 
 Fill the pool of shared meaning
-
-
-People who are skilled at dialoge, do their best to make it safe for everyone to add meaning to the pool of shared meaning
+- People who are skilled at dialoge, do their best to make it safe for everyone to add meaning to the pool of shared meaning
 
 > The pool of shared meaning is the birtplace of Sinergy
 
 # Chapter 3 - Start with heart
-
-
-work on me first, us second 
+- work on me first, us second 
 	- Try to change yourself first, since it's the only thing you can control
 
-
-
-Focus on what you really want
+- Focus on what you really want
 	- When heated, do a step back and ask
 	- What do I really want for **myself**
 	- What do I want for **others**
 	- What do I want for **the relationship**
-
-
-Instead of focus on win, on forcing ideas to the pool of shared meaning.
+- Instead of focus on win, on forcing ideas to the pool of shared meaning.
 
 # Chapter 4 - Learn to look
 
-
-
-**SAFETY** -> Is what makes dialog work, we should always feel safe, anything can be said in a safe environment
-
-
-How we do that? ->? detecting lost of safety
+- **SAFETY** -> Is what makes dialog work, we should always feel safe, anything can be said in a safe environment
+- How we do that? ->? detecting lost of safety
 	- Spot crucial conversations (remember high stakes + emotions + opposing opinions)
 	- **Silence** -> is "flight" strategy
 		- masking -> selectively showing our true opinion
@@ -93,49 +81,25 @@ There are 3 types of stories we tell our self:
 # Chapter 7 - State my path
 
 What:
-
-
-**Share tour facts** <- least controversial
-
-
-**Tell your story** <- be rational and reasonable
-
-
-**Ask for other's path** <- invite others to share/expand the problem
+- **Share tour facts** <- least controversial
+- **Tell your story** <- be rational and reasonable
+- **Ask for other's path** <- invite others to share/expand the problem
 How:
-
-
-**Talk tentatively** <- Tell the story as an story, and not as facts "In my opinion...."
-
-
-**Encourage testing** <- make sure that people feel safe no matter what they are sharing
+- **Talk tentatively** <- Tell the story as an story, and not as facts "In my opinion...."
+- **Encourage testing** <- make sure that people feel safe no matter what they are sharing
 
 # Chapter 8 - Explore other's path 
 
 How to make enough security that others can share their path:
-
-
-**Ask** -> to encourage walking the path together
-
-
-**Mirror** -> confirm their feelings
-
-
-**Paraphrase** -> to acknowledge their story
-
-
-**Prime**: if nothing worked, with all the info try to get the most reasonable story and talk them back " I think that ...."
+- **Ask** -> to encourage walking the path together
+- **Mirror** -> confirm their feelings
+- **Paraphrase** -> to acknowledge their story
+- **Prime**: if nothing worked, with all the info try to get the most reasonable story and talk them back " I think that ...."
 
 For disagreeing:
-
-
-Agree -> on the common things you have(normally we only disagree on the details)
-
-
-Build -> If something is missing, add it after agreeing
-
-
-Compare -> when you disagree significantly, don't suggest others are wring, just compare both views
+- Agree -> on the common things you have(normally we only disagree on the details)
+- Build -> If something is missing, add it after agreeing
+- Compare -> when you disagree significantly, don't suggest others are wring, just compare both views
 
 # Chapter 9 - Move to actions
 
