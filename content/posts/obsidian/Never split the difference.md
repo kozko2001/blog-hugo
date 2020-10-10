@@ -230,4 +230,34 @@ of the 3 ways that is used the word, only one is positive
 	
 	successful negotiation involve getting you counterpart to do the work for you and suggest your solution himself. Giving them the illusion of control, while in fact, we are the ones defining the conversation.
 	
-	**reciprocity**: universal rule of human nature across cultures, is that if somebody gives you something, they expect something in return. And they will 
+	**reciprocity**: universal rule of human nature across cultures, is that if somebody gives you something, they expect something in return. And they won't give you anything else until you pay them back.
+	
+	**Unbelief**: which is active resistance to what the other side is saying,complete rejection. That's where two parties in a negotiation usually starts.
+	
+	Giving your counterpart the illusion of control by asking calibrated questions - by asking for help- is one of the most powerful tools for suspending unbelief.
+	
+	> Who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation
+
+##### Calibrated questions 
+The goal of any well designed calibrated question is, that you want what the other part wants, but you need his intelligence to overcome the problem.
+
+Calibrated question make your  counterpart feel like the're in charge, but in reality it's you who is framing the conversation
+
+There are rules to to create them
+- avoid verbs like 'can', 'is' 'are' 'do'. -> normally that go to closed-ended questions
+	- instead try **Who**, **What**, **When**, **Where** and **How**
+	- You can try Why, but can backfire, cause can be interpreted as accusatory
+
+some for the beginning of every negotiation
+- What about this is important to you?
+- How can I help to make this better for us?
+- How would you like me to proceed?
+- What is it that brought us into this situation?
+- How can we solve this problem?
+- What is the objective? What are we trying to accomplish here?
+- How am I supposed to do that?
+
+Example:
+-  🚫 You can't leave
+-  ✅ I understand why you are pissed off, What do you hope to accomplish by leaving?
+
