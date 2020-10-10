@@ -227,16 +227,18 @@ of the 3 ways that is used the word, only one is positive
 	4. triggers reciprocation
 	
 	### Chapter 7 - Create the illusion of control
+
+Don't try to force your opponent to admit that you are right. Aggressive confrontation is the enemy of constructive negotiation
 	
-	successful negotiation involve getting you counterpart to do the work for you and suggest your solution himself. Giving them the illusion of control, while in fact, we are the ones defining the conversation.
+successful negotiation involve getting you counterpart to do the work for you and suggest your solution himself. Giving them the illusion of control, while in fact, we are the ones defining the conversation.
 	
-	**reciprocity**: universal rule of human nature across cultures, is that if somebody gives you something, they expect something in return. And they won't give you anything else until you pay them back.
+**reciprocity**: universal rule of human nature across cultures, is that if somebody gives you something, they expect something in return. And they won't give you anything else until you pay them back.
 	
-	**Unbelief**: which is active resistance to what the other side is saying,complete rejection. That's where two parties in a negotiation usually starts.
+**Unbelief**: which is active resistance to what the other side is saying,complete rejection. That's where two parties in a negotiation usually starts.
 	
-	Giving your counterpart the illusion of control by asking calibrated questions - by asking for help- is one of the most powerful tools for suspending unbelief.
+Giving your counterpart the illusion of control by asking calibrated questions - by asking for help- is one of the most powerful tools for suspending unbelief.
 	
-	> Who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation
+> Who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation
 
 ##### Calibrated questions 
 The goal of any well designed calibrated question is, that you want what the other part wants, but you need his intelligence to overcome the problem.
@@ -260,4 +262,62 @@ some for the beginning of every negotiation
 Example:
 -  🚫 You can't leave
 -  ✅ I understand why you are pissed off, What do you hope to accomplish by leaving?
+
+- Who is in control of the conversation? the talker or the listener? 
+	- The listener, cause the talker is revealing information, and the listener might be directing the conversation toward his goals
+
+
+### Chapter 8 - Guarantee execution
+
+**Yes** is nothing without **How**, The end is to execute what we agreed, if not, the agreement is useless
+
+The trick to How questions, is that correctly used, are a gentle way to say No and guide your counterpart to develop a better solution (your solution). A gentle How/No invites collaboration and leave your counterpart with a feeling of being treat with respect.
+
+- makes your counterpart to have a deep look to your situation, that is named **"forced empathy"**
+- Also forces counterpart to consider and explain how a deal will be implemented.
+	- By making the other party articulate implementation in their own word, your calibrated question will convince them that the final solution is **their idea**
+	- And that is key, cause people put more effort to implement a solution when they think it's theirs
+
+How to push to define success, you can use two question
+1. How will we know we're on track?
+2. How will we address things if we are off track?
+
+##### Influencing those behind the table
+
+When other people will be affected by the execution of the plan, we need to be sure everybody is onboard, if not, we might have an agreement from our counterpart, but the deal never gets real
+
+- How does this affect the rest of your team?
+- How on board are the people not on this call
+
+You need to identify and understand the motivation of each individual, even if you don't have access to them.
+
+##### The rule of three
+
+Is simply getting the other part to say yes 3 times
+
+1. When they agree
+2. When you summarize what they said, and you got the "That's right"
+3. a calibrated question about the implementation 
+	1. How we know we are on track
+	2. What do we do if we get off track
+
+##### Pay attention to their usage of pronoums
+
+The more in love with **I**, **me** and **my**, the less important they are
+
+Why? Cause smart decision makers don't want to be cornered at the table into making a decision. They prefer to defer to the people away from the table to keep from getting pinned down
+
+##### How to say No
+
+You usually can say No 4 times.
+
+
+1. How I can I do that? <- calibrated question
+2.  a version of "Your offer is very generous, I am sorry that just doesn't work for me"
+3.  I am sorry but I am afraid I cannot do that
+4.  I'm sorry, no
+
+
+
+
 
