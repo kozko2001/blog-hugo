@@ -109,7 +109,7 @@ date: 2020-09-20 00:00:00
 - Remember you're dealing with a person who want to be appreciated and understood. So use labels to reinforce and encourage positive perceptions and dynamics.
 
 
-### Chapter 3: Be aware of "Yes", master "No"
+### Chapter 4: Be aware of "Yes", master "No"
 
 - For a lot of time, we were tricked to say yes, and now, we are defensive when force to say yes, we don't want to
 
@@ -157,4 +157,77 @@ There are different yeses, and you need to differentiate
 	- combined with labeling
 - be aware that if they say "You're right", then probably you didn't convinced them, they just saying so you don't bother more.
 
+### Chapter 6 - Bend their reality
 
+##### Understand counterpart desires and goals.
+
+All negotiations are defined by a network of subterranean desires and needs. Don't let yourself be fooled by the surface
+
+If you can get the other party to reveal their problems, pain and unmet objective, then you can sell them a vision of their problem that leaves your proposal as the perfect solution.
+
+If you approach a negotiation thinking that the other guy thinks like you, you're wrong, **that's not empathy**, **that's projection**.
+
+
+##### Never compromise! better no deal, that a bad one.
+- Of couse you need to keep cooperative, empathic so the deals can be made
+- but compromise *splitting the difference* -> Can lead to terrible outcomes
+- Compromise is often a *bad deal*, and better no deal, that a bad one.
+- We compromise because is easy and because it saves face
+	- We  compromise cause we are mostly driven by the desire to avoid pain.
+
+##### Deadlines
+- don't matter if deadline is real or "a line in the sand"
+- Trick people mind to think *doing a deal* now is better than *getting a good deal*
+- deadlines are often  arbitrary, almost always flexible and hardly ever trigger consequences
+- We can use deadlines in our benefit
+	- last research suggest that when share dealines with our counterpart, we get better deals
+
+
+##### The Fair word
+
+of the 3 ways that is used the word, only one is positive
+
+1. We just want what's fair
+	1. Triggers a defensive respond
+	2. you can respond, "Okay, I apologize, let's go back to where I started to treating you unfairly and we will fix it"
+2. We've given you a fair offer
+	1. it's a way to distract your attention and manipulate into giving
+	2. answer, "Fair? can you provide evidence that supports that?"
+3. "I want you to feel treated fairly at all times, so stop me any time if I'm being unfair"
+	1. you can start a conversation with this
+	2. set up you as an honest person
+
+##### Bend their reality 
+
+**Loss aversion**: people will take grater risk to avoid losses than to achieve gains
+
+1. Anchor their emotions
+	1. Start with an accusation audit, acknowledging all of their fears,
+	2. By anchoring their emotions in preparation for a loss, you inflame the other side's loss aversion
+	3. you anchor them by saying how bad it will be, that then the offer is reasonable in comparison.
+2. Let the other guy go first
+	1. Might happen that the other person, give you a way better deal than you thought
+	2. cause the information on both side is imperfect
+	3. if the other side is a "shark", they will try to do a extreme anchor. so be aware
+3. Establish a range
+	1. establishing a range, will allow you to anchor to some value
+	2. without making others extremly defensive
+	3. is a way to soft the negotiation
+	4. expect they come to the low end
+4. Pivot to non monetary terms
+	1. After you anchored them high
+	2. You can make your offer seem reasonable by offering things that aren't important to you but are important to the other party
+5. When you do talk numbers, use odd ones
+	1. round numbers look made up, and easy to change
+	2. if you use, weird numbers, they will thing there is thought behind them, and will be less likely to want to change them
+6. Surprise with a gift
+	1. get the other part into the mood of generosity by 
+	2. a) anchoring high, and after their first rejection
+	3. b) offering them a wholly unrelated surprise gift
+	4. triggers reciprocation
+	
+	### Chapter 7 - Create the illusion of control
+	
+	successful negotiation involve getting you counterpart to do the work for you and suggest your solution himself. Giving them the illusion of control, while in fact, we are the ones defining the conversation.
+	
+	**reciprocity**: universal rule of human nature across cultures, is that if somebody gives you something, they expect something in return. And they will 
