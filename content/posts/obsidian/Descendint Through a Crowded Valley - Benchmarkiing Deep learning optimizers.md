@@ -12,4 +12,7 @@ A paper that does some benchmarking what optimizers to use.
 One thing I liked is the list of all the optimizers and schedulers there are.
 
 #### Conclusion
-Use Adam or SGD + Momentum
+
+::: anki 34307583-9dce-48e7-b0f4-e4e59059368e
+Which is the best optimizer for DL? Adam or SGD with momentum #Flashcard
+:::
