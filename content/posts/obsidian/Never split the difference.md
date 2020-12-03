@@ -318,6 +318,23 @@ You usually can say No 4 times.
 4.  I'm sorry, no
 
 
+### Chapter 9 - Bargain hard
+
+Research found there is 3 broad categories of people:
+
+- Accomodators
+- Assertive
+- Analyst
+
+##### Analyst
+They are methodical and diligent, they think in a systematic way to get the best result. They try to mimize mistakes.
+
+With them it's crucial to be prepared. Use clear data to drive your reason.
+
+They may need a few days to respond
+
+##### Accomodator
+
 
 
 
