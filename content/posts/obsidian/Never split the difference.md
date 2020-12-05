@@ -322,19 +322,45 @@ You usually can say No 4 times.
 
 Research found there is 3 broad categories of people:
 
-- Accomodators
+- Accommodator
 - Assertive
 - Analyst
 
 ##### Analyst
-They are methodical and diligent, they think in a systematic way to get the best result. They try to mimize mistakes.
+- time = preparation
+They are methodical and diligent, they think in a systematic way to get the best result. They try to minimize mistakes.
 
 With them it's crucial to be prepared. Use clear data to drive your reason.
 
 They may need a few days to respond
 
 ##### Accomodator
+- time = relationship
+- they spent time building the relationship. wants a free-flowing of continuous exchange of information. they really want to be on great terms.
+- If you think your are an accomodator, stick to be likeable but do not sacrifice your objections.
+
+##### Assertive 
+- They think time is money
+- Their success is linked to how much things they can do for unit of time
+- Assertive people want to be heard, and they will not listen to you until they think you have listened to them, so just do that xD
+- Mirrors, calibrated questions are really good for them
+
+**Don't project your style to others, Don't treat others how you want to be treated, theat them the way they need to be treated**
+
+### Chapter 10 - Find the black swan
+
+or... uncovering unknown unknowns
+
+blackswans: are pieces of information that when know, they give you a leverage multiplier.
+
+There is 3 types of leverage
+- positive: you are holding something the counterpart wants
+- negative: you have the ability to hurt your counterpart
+- normative: use the rules of your counterpart to turn them around
+
+- Don't let your previous experiences, **blind** you, each situation is new, you can use previous experiences to guide you and be more effective but be conscious of being curious yet.
+
+Hypothesis: Every part has 3 blackswans
 
 
-
-
+> Remember, pushing hard for what you believe is not selfish. It is not bullying. It's not just for helping you. But if you are an honest, decent person looking for a reasonable outcome. When you ask calibrated questions, yes you are leading your counterpart to your goals. But you are also leading them to examine and articulate what they want.
