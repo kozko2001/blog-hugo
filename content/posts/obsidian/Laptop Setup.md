@@ -14,9 +14,9 @@ date: 2020-08-01 00:00:00
     - [ ] direnv <--- allow you to execute commands things you can do
         - load some specific environment variables for specific projects (like secrets)
         - load specific environment for python or node, without having to use nvm or pyenv-virtualenv that are slooooow
-    - [ ] Marta, a alternative to finder in two pane mode `brew cask install marta`
 	- [ ] Espanso, an open source text expansion, follow this guide to install it https://espanso.org/install/mac/
 	- [ ] install obsidian  
+	- [ ] install kitty [Kitty cheatsheet](../kitty-cheatsheet)
 
 Install pyenv:
 ```bash

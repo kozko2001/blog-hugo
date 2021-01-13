@@ -1,9 +1,10 @@
 
 ---
 title: Kitty terminal cheatsheet
-date: 2021-12-01 00:00:00
+date: 2021-01-13 00:00:00
 ---
 ---
+
 - Ctrl + Shift + T -> Open new tab
 - Ctrl + Shift + Q -> closes tab
 - Ctrl + Shift + (left or right) -> move between tabs
@@ -17,3 +18,4 @@ date: 2021-12-01 00:00:00
 - Ctrl + Shift + c -> copy selection to clipboard
 - Ctrl + Shift + e -> click url without a mouse
 - Ctrl + Shift + h -> open  buffer in editor (vim)
+
