@@ -25,4 +25,10 @@ There is 3 levels of change that can occur
 2. Processes: changing your habits and systems, ex. decluttering your desk 
 3. Identity: changing your beliefs, how you see the world, yourself and others 
 
+There is a duality between identity and habits
+- **Your identity emerges from your habits**. You are a type of person, cause the things you do, and habits are things that you do very often. If you are don't go much to a gym and normally don't care what are you eating => can you say you are a healthy type of person?
+- The good news, is that you can change your habits, but for doing that, you need to change your identity. 
+- Every action is a vote for the type of person you wish to become, that's why habits are so important.
 
+
+If you want to change your habits, you need first to change your identity.
