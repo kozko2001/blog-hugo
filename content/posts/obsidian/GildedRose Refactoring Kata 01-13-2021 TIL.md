@@ -1,6 +1,6 @@
 
 ---
-title: GildedRose Refactoring Kata 01-13-2021 TIL
+title: GildedRose Refactoring Kata 01-13-2021
 date: 2021-01-13 00:00:00
 ---
 - ---
