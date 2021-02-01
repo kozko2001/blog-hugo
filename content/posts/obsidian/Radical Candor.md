@@ -24,7 +24,7 @@ Radical candor is based in two "sentences":
 
 
 # Chapter 2 
-![](<../radical_candor.png>)
+![](<images/radical_candor.png>)
 
 - difference between **radical candor** and **obnoxious aggression** is:
 	-  it's not mean, it's clear
