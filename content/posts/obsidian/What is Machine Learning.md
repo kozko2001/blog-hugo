@@ -8,7 +8,7 @@ date: 2020-08-25 00:00:00
 
 Machine learning, is just another way of writing programs. A program can  be represented by an **input**, a **set of rules or statements** (the program) and an **outcome**.
 
-![](<images/./images/Screenshot 2020-08-25 at 09.06.05.png>)
+![](<../images/./images/Screenshot 2020-08-25 at 09.06.05.png>)
 
 The traditional way of writings software is to recollect the behavior of the system from the users, and write the rules that matches this behavior.
 
@@ -16,7 +16,7 @@ For most problems this works well, but for some other it's really hard. i.e gett
 
 Machine learning, is making this process up-side-down, giving examples of matched input and output, and letting the computer figure out the rules of the program.
 
-![](<images/./images/Screenshot 2020-08-25 at 09.05.51.png>)
+![](<../images/./images/Screenshot 2020-08-25 at 09.05.51.png>)
 
 ### Caveats
 

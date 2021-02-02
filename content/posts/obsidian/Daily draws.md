@@ -19,7 +19,7 @@ date: 2020-08-25 00:00:00
 
 > 
 
-> ![](<.././images/Screenshot 2020-08-25 at 10.55.55.png>)
+> ![](<images/./images/Screenshot 2020-08-25 at 10.55.55.png>)
 
 > 
 
