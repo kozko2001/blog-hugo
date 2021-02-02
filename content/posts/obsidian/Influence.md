@@ -11,22 +11,21 @@ date: 2021-02-01 00:00:00
 
 ### 1. Contrast principle
 
-- When showed one after another, difference seems bigger 
-	- How is exploited? Some times sellers will show you something way expensive, and there something "just" expensive.
-	- but by the contrast, seems much cheaper
+When showed one after another, difference seems bigger 
+- How is exploited? Some times sellers will show you something way expensive, and there something "just" expensive.
+- but by the contrast, seems much cheaper
 
 
 ### 2. Reciprocation
-- If somebody does you a favor, we feel in debt. This can trick you into doing something you would not normally do, just to feel free of debt
+If somebody does you a favor, we feel in debt. This can trick you into doing something you would not normally do, just to feel free of debt
 
-- **Rejection then retreat**: a derivate of reciprocation, when asking something hard and then you negotiate, the other part feels obliged to accept, since you are already giving the a favor (lowing the demand). 
+**Rejection then retreat**: a derivate of reciprocation, when asking something hard and then you negotiate, the other part feels obliged to accept, since you are already giving the a favor (lowing the demand). 
 
 In the book [Never split the difference](../never-split-the-difference) this is called anchoring, if you are able to land first the terms, you are anchoring the frame of negotiation.
 
 ### 3. Commitment & Consistency
 
 - **Consistency**: We all have a high pressure to behave consistently. -> People who is not consistently seems less trusty. And we all want to be trustworthy.
-
 - **Commitment**: Once we commit into something we are trap into consistency. two forces appear.
 
 1. Inside: our self-image changed and we want to take actions to be consistent with ourself.
@@ -67,3 +66,4 @@ Opportunities seem more valuable to us when their availability is limited
 
 They use this techniques to make our brain to not think, and just act.
 
+Book on amazon: https://www.amazon.es/influence-Psychology-Persuasion-Business-Essentials/dp/006124189X
