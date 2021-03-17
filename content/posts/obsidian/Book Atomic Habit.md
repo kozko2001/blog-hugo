@@ -32,3 +32,31 @@ There is a duality between identity and habits
 
 
 If you want to change your habits, you need first to change your identity.
+
+## Chapter 11 - Walk slowly but never backward
+
+#### Being in motion or taking action
+- Experiment in the school 2 evaluations,
+	-  1. "quantity group" evaluated by the number of work produced, 
+	-  2. "quality group" evaluated by the excelence of their work.
+-  Result, the quantity group made had way better performance. Why? Cause people who try more, experiment more and learn from their mistakes (#feedback-loop)
+
+> The best is the enemy of the good -- Voltaire
+
+Why is hard to take action? -> cause we want failure
+-> preparation becomes a form of procrastination
+
+To master an habit, the key is to start with **repetition** not **perfection**
+
+
+Automaticity: Is the ability to perform a behaviour without thinking about each step, which occurs when the nonconscious mind takes over.
+
+To build an habit you need to practice it. To practice it you need to **make it easy**.
+
+## chapter 12 - The law of least effort
+
+**Law of least effort** -> if there is two similar options, people will gravitate toward the one that requires less energy/effort.
+
+Our real motivation is to be lazy (brain love to be lazy) -> let's exploit this!
+
+
