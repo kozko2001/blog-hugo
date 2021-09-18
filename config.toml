@@ -1,7 +1,7 @@
 baseURL = "https://allocsoc.net/"
 languageCode = "en-us"
 title = "KZK's blog"
-theme = "archie"
+theme = "mini"
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true
