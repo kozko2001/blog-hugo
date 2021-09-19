@@ -26,3 +26,11 @@ From here it should be easy to detect the bullet points that have a link and get
 
 You can see the ugly code here https://github.com/kozko2001/awesome-list-crawler
 
+##### Infrastructure
+
+I am gonna use AWS:
+1. Create and ECR (a place to store docker images)
+2. Create a github action that each time I commit to the repository will push the image to the ECR (I have to be extra careful to create a user with just enough permissions to push there) see: https://github.com/aws-actions/amazon-ecr-login
+3. Have a lambda that will execute the docker image once a day -> and store the result into a public S3
+
+For doing all the provisioning I will try to use CDK for python (first time!)
