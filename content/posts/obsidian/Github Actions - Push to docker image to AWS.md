@@ -5,6 +5,7 @@ date: 2021-09-24 00:00:00
 ---
 ---
 
+
 We all know the benefits of pushing code automatically to production, here is a small guide on how to do it with Github actions and AWS.
 
 The high level steps are:
@@ -15,7 +16,7 @@ The high level steps are:
 4. Configure the pipeline to do the push
 
 
-### Step 1 - Create a docker image repository
+## Step 1 - Create a docker image repository
 
 For use of all this code, we are going to use `AWS-CDK` a library to create infrastructure from our code.
 
@@ -34,7 +35,7 @@ repository = ecr.Repository(self, "name-of-the-registry")
 
 then in the terminal we execute `cdk deploy`, and voila! we have a new ecr repository in our AWS account.
 
-### Step 2 - Create user to push to registry
+## Step 2 - Create user to push to registry
 
 we should create a new aws user...
 ```python
@@ -72,7 +73,7 @@ repository.add_to_resource_policy(
 
 execute `cdk deploy`, and we should have the correct user with the correct permissions
 
-### Step 3 - Configure github actions
+## Step 3 - Configure github actions
 
 First, we need  to make be able to use this user from the API, for that we need to:
 
@@ -115,12 +116,12 @@ be aware of changing the `aws-region` and the `main` branch if not suits your pr
 
 after you do a push, you should see in the Actions tab of your github project, that the pipeline is executed and is green.
 
-### Step4 - Configure the pipeline to  push!
+## Step4 - Configure the pipeline to  push!
 
 Once you are logged in AWS inside the pipeline, most of the heavy lifting is already done. 
 Now we just want to create a new step in the pipeline that builds the image and pushes to the ECR.
 
-```
+```yaml
     - name: Build, tag, and push the image to Amazon ECR
       id: build-image
       env:
@@ -138,7 +139,7 @@ Now we just want to create a new step in the pipeline that builds the image and 
 Before you push, make sure to create a new secret named `REPO_NAME` with the URI of the ECR repository (is one of the properties you see in the AWS console)
 
 
-### Conclusions
+## Conclusions
 
 Having best practices is a little bit more hard, than doing manually. But 
 
