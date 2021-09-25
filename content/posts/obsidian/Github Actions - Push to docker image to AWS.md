@@ -40,6 +40,8 @@ then in the terminal we execute `cdk deploy`, and voila! we have a new ecr repos
 we should create a new aws user...
 ```python
 user = iam.User(self, "MY_PROJECT_GITHUB_ACTIONS_PUSH_ECR")
+
+ecr.AuthorizationToken.grant_read(user)
 ```
 
 and give it permission to read and write to the repository...
@@ -136,7 +138,7 @@ Now we just want to create a new step in the pipeline that builds the image and 
         echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
 ```
 
-Before you push, make sure to create a new secret named `REPO_NAME` with the URI of the ECR repository (is one of the properties you see in the AWS console)
+Before you push, make sure to create a new secret named `REPO_NAME` with the name (not the URI) of the ECR repository (is one of the properties you see in the AWS console)
 
 
 ## Conclusions
