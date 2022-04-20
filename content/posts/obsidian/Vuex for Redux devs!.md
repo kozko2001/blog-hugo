@@ -11,7 +11,7 @@ Vuex as redux is a state manager, with the pattern of having the whole state sep
 
 This way, rendering is a pure function of the state DOM = render(vuex_state). Also you create specific functions (actions) you can call from the UI to modify the state
 
-![](<../images/Pasted image 20210123191415.png>)
+![](<../images/VuexForRedux.png>)
 
 So far, is the same with Redux, and for everything else is just the same, with names changed everywhere.
 

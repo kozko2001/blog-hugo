@@ -1,7 +1,7 @@
 
 ---
 title: Github Actions - Push to docker image to AWS
-date: 2021-09-24 00:00:00
+date: 2022-09-24 00:00:00
 ---
 ---
 
