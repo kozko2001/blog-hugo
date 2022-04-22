@@ -44,10 +44,7 @@ hiddenPostSummaryInHomePage = false
 
 [[params.links]]
 name = "CV"
-path = "https://google.com"
+path = "http://cv.allocsoc.net"
 
-    ## e.g.
-    # - name: Project
-    #   path: /project
 
 googleAnalytics = "UA-30847907-1"
