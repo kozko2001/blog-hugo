@@ -9,14 +9,45 @@ pygmentscodefencesguesssyntax = true
 
 paginate=10 # articles per page
 
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/athul/archie"
+[permalinks]
+posts = "/posts/:title/"
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://github.com/athulcajay/"
+[markup.highlight]
+guessSyntax = true
+style = "emacs"
+
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[social]
+github = "https://github.com/kozko2001"
+twitter = "https://twitter.com/kozko2001"
+
+[params]
+author = "Jordi Coscolla"
+bio = "Lead engineer"
+description = "KZK's blog"
+enableRSS = true
+enableComments = false
+enableGoogleAnalytics = true
+showToc = true
+showPowerBy = true
+math = true
+hiddenPostSummaryInHomePage = false
+
+
+[[params.links]]
+name = "CV"
+path = "https://google.com"
+
+    ## e.g.
+    # - name: Project
+    #   path: /project
 
 googleAnalytics = "UA-30847907-1"
