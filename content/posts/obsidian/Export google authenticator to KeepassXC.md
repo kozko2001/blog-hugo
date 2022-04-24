@@ -1,7 +1,7 @@
 
 ---
 title: Export google authenticator to KeepassXC
-date: 2022-09-25 00:00:00
+date: 2021-09-25 00:00:00
 ---
 ---
 

@@ -1,7 +1,7 @@
 
 ---
-title: Github Actions - Push to docker image to AWS
-date: 2022-09-24 00:00:00
+title: Github Actions - Push to AWS container repository (ECR)
+date: 2022-04-02 00:00:00
 ---
 ---
 
