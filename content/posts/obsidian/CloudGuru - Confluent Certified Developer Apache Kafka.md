@@ -1,7 +1,7 @@
 
 ---
 title: CCDAK (Confluente Certified Developer for Apache Kafka) Notes  == Cloud.Guru
-date: 2022-06-05 00:00:00
+date: 2022-05-06 00:00:00
 ---
 ---
 
