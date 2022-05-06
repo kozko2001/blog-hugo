@@ -99,3 +99,18 @@ props that use in the video or creating a producer `bootstrap.servers` `key.seri
 
 ## 3. Kafka Streams
 
+### Stateless transformations
+- **branch**: splits a stream into multiple streams based on predicated
+- **filter**: removes messages from the input stream based on a condition
+- **flatMap**: maps records to new set of logs (0, 1, or n) and flats them back to a stream
+- **Foreach**:
+- **GroupBy/GroupByKey**: Group records by their keys.
+- **Map**: transforms each stream record to a new one
+- **Merge**: merge two streams into a new one
+
+### 3.2 Aggregations
+Functions that you can execute to get calculations after doing **groupBy**
+
+- **Aggregate**: generates a new row based on a calculation from the values in the same key/aggregation
+- **Count**:
+- **Reduce**:
