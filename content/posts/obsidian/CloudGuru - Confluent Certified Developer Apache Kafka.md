@@ -112,5 +112,24 @@ props that use in the video or creating a producer `bootstrap.servers` `key.seri
 Functions that you can execute to get calculations after doing **groupBy**
 
 - **Aggregate**: generates a new row based on a calculation from the values in the same key/aggregation
-- **Count**:
+- **Count**: Count values with the same agg
 - **Reduce**:
+
+### 3.3 Joins
+Combine streams into one stream.
+
+**Co-Partitioning**: for merging, topics need to have the same number of partitions, and the same partitioning strategy. That's because each stream application (consumer in a consumer group), only have a subset of the partitions
+
+You can use `GlobalKTable` this way, the streams application will have the data from all partitions, but you loss performance.
+
+**Inner Join**
+**Left Join**
+**Outter Join**
+
+### 3.4 Windowing
+
+Allow to divide the aggregate groups, not only on keys, but now also on the time the record was produced
+
+### 3.5 Streams vs Tables
+**Streams**: new records do NOT replace previous data. Examples: credit card transactions
+**Tables**: represents the current state, example: a users current balance in the bank account
