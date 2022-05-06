@@ -4,7 +4,7 @@ title: CCDAK (Confluente Certified Developer for Apache Kafka) Notes  == Cloud.G
 date: 2022-06-05 00:00:00
 ---
 ---
-t
+
 # CCDAK (Confluente Certified Developer for Apache Kafka)
 
 ## 1  Introduction
@@ -81,7 +81,7 @@ What if there is only non-sync replicas? kafka will wait until there is a new in
 Add a consumer to a specific group, execute in multiple terminals to have multiplce consumers in the same consumer group.
 `kafka-console-consumer --bootstrap-server localhost:9092 --topic inventory_purchases --group 2`
 
-## Kafka Java APIs
+## 2. Kafka Java APIs
 Shared java libraries that help to operate with kafka.
 - `Producer API`
 - `Consumer API`
@@ -93,4 +93,9 @@ props that use in the video or creating a producer `bootstrap.servers` `key.seri
 
 `Producer<String, String> producer = new KafkaProducer<>(props)`
 
-`producer.send(new ProducerRecord<String, String>("count-topic", "count", ))`
+`producer.send(new ProducerRecord<String, String>("count-topic", "count", "value"))`
+
+`producer.close()`
+
+## 3. Kafka Streams
+
