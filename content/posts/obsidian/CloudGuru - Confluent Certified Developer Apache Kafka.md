@@ -155,5 +155,96 @@ number of partitions, replication factor.
 - How  much memory available on each broker? `replica.fetch.max.bytes` => around 1Mb
 
 ### 4.3 Metrics and monitoring
-Kafka + Zookeper expose metrics through JMX.
+Kafka + Zookeeper expose metrics through JMX.
+
+## 5. Kafka in Java
+### 5.1 Java producers
+`acks=all` => makes the producers to receive the ACK when all in-sync replicas acknowledged the record.
+We can have a callback when the record is actually acknowledged.
+
+### 5.2 Java Consumers
+`enable.auto.commit` <- if true, the API send a notification to the kafka cluster saying until which part has been consumed in a scheduled base (every some seconds)
+`consumer.Poll(Duration.ofMillis(100)`
+
+`consumer.commitSync()` <-- to manually commit
+
+What if you consumed some messages, but didn't commit the new offset, and the consumer process crash? => kafka has no way to know that this messages were already processed... so you will process them again.
+
+## 6. Confluent Rest API proxy
+
+a only confluent service, that allows to consume/produce from this REST Api proxy
+
+### 6.1 Producing messages with REST Proxy
+
+we make a `POST` request to `/topics/topic-name` with the payload 
+```json
+{
+  "records": [
+	  {
+		  "key": "key":
+		  "value": "value"
+	  }
+  ]
+}
+```
+
+### 6.2 Consume messages with REST Proxy
+
+We need more steps...
+
+1. Create a consumer and consumer instance
+`POST` to `/consumers/consumer-name`
+```
+{
+  "name": "consumer_instance_name",
+  "format": "json",
+  "auto.offset.reset": "earliest"
+}
+```
+2. Subscribe the consumer to a topic
+`POST` to `/consumers/consumer_name/instances/consimer_instance/subscription`
+```
+{
+	"topics": [
+	  "topic_name"
+	]
+}
+```
+
+3. consuming messages
+`GET` `/consumers/consumer_name/instances/consumer_instance_name/records`
+
+## 7. Schema registry
+Until now, we were storing strings. How we can use better (more complex and efficient formats) formats. and How we can make sure all clients can process the data.
+
+**Schema registry** => is a central place of schemas, also versioned.
+
+### 7.1 Creating Avro schema
+Not in the video (from my memory) Avro is a binary packing protocol, one interesting thing is that also had versioning, and prevent new versions of an avro schema that is not backward compatible.
+
+Avro schemas are represented as JSON
+```
+{
+  "namespace": "<namespace>",
+  "type": "record"
+  "name": "<schema name>",
+  "fields": [
+	  {
+		  "name": "<fieldname>",
+		  "type": "<field_type>"
+	  }
+  ]
+}
+```
+
+### 7.2 Using Avro schema in a producer
+
+```
+props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, KafkaAvroSerializer.class)
+props.put(AbstractKafkaAvroSerDeConfig.SCHEMA_REGISTRY_URL_CONFIG, "http://localhost:8081")
+```
+
+Avro is able to autogenerate value classes from the avro json schema -> via avro plugin.
+
+### 7.3 Using Avro schema in a consumer
 
