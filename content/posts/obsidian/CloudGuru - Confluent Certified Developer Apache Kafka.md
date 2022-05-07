@@ -123,7 +123,9 @@ Combine streams into one stream.
 You can use `GlobalKTable` this way, the streams application will have the data from all partitions, but you loss performance.
 
 **Inner Join**
+
 **Left Join**
+
 **Outter Join**
 
 ### 3.4 Windowing
@@ -132,4 +134,26 @@ Allow to divide the aggregate groups, not only on keys, but now also on the time
 
 ### 3.5 Streams vs Tables
 **Streams**: new records do NOT replace previous data. Examples: credit card transactions
+
 **Tables**: represents the current state, example: a users current balance in the bank account
+
+
+## 4. Advanced Application Design Concepts
+
+### 4.1 Kafka Configuration
+All configurations are done by key-value pairs.
+
+**broker configuration**:  you can use `server.properties`, the command line or the `AdminClient API`
+
+**topic configuration**: you can configure `kafka-topics` to set properties at creation time or `kafka-configs` (a default AdminClient API tool). All topics config have a broker default value
+
+### 4.2 Topics design
+number of partitions, replication factor.
+
+- What is your need for fault tolerance?
+- How many consumers are going to be in each consumer group? => each consumer will get at least 1 partition
+- How  much memory available on each broker? `replica.fetch.max.bytes` => around 1Mb
+
+### 4.3 Metrics and monitoring
+Kafka + Zookeper expose metrics through JMX.
+
