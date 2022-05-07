@@ -353,3 +353,46 @@ If client is in Java -> you can use JMX, adding the parameters at the cli launch
 
 - Producers metrics: `response-rate`, `request-rate`, `request-latency-avg`, `outgoing-byte-rate`, `io-wait-time-ns-avg`
 - Consumer metrics: `records-lag-max` `bytes-consumed-rate` `records-consumed-rate` `fetch-rate`
+
+### 10.2 Producer tuning
+
+- `acks`: 
+	- `0` no wait for ack
+	- `1` record will be ack when the leader writes the record
+	- `all` 
+- `retries` -> num of times to retry if there is a transient error -> this could make the records to be out of order
+- `batch.size` -> max bytes to batch in a time.
+
+### 10.3 Consumer tuning
+
+`fetch.min.bytes` => default to 1 -> if you increase you might get better throughput by receiving more records at once, but decrease the the latency
+
+`heartbeat.interval.ms` -> tells that the consumer is still alive, if the interval.ms increase... the best for the coordinator can rebalance the partitions
+
+`auto.offset.reset` -> `Latest` `Earliest` `none` 
+
+## 11. KSQL
+similar to Kafka stream and is similar to SQL (not ANSI SQL)
+
+You can do almost anything you can do with kafka streams, it's just another interface.
+
+It's another service
+
+```sql
+SHOW TOPICS;
+PRINT 'topic-name';
+CREATE STREAM <name> (<fields>) WITH (kafka_topic='<topic>', value_format='<format>');
+
+CREATE TABLE <name> (<fields>) WITH (kafka_topic='<topic>', value_format='<format>', key='<key');
+
+select * from kssl_test_stream
+
+select sum(<field>) from table_or_stream GROUP BY <field>
+```
+
+
+## 12 Exam preparation
+- 55 questions
+- multiplice choice
+- 90 min
+- no documentation
