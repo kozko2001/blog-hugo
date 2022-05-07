@@ -164,6 +164,8 @@ We can have a callback when the record is actually acknowledged.
 
 ### 5.2 Java Consumers
 `enable.auto.commit` <- if true, the API send a notification to the kafka cluster saying until which part has been consumed in a scheduled base (every some seconds)
+`AUTO_OFFSET_RESET_CONFIG = earliest` => each time the consumers starts working, will start from the beginning
+`group.id` <-- consumer group id
 `consumer.Poll(Duration.ofMillis(100)`
 
 `consumer.commitSync()` <-- to manually commit
@@ -248,3 +250,106 @@ Avro is able to autogenerate value classes from the avro json schema -> via avro
 
 ### 7.3 Using Avro schema in a consumer
 
+### 7.4 Managing Avro schema changes 
+
+Confluent Schema Registry has a **Schema compatibility checking** 
+
+different compatibility types:
+- Backward (Default) -> compatible with the previous producers version of the schema
+- Backward transitive -> compatible with **all** producers versions of the previous schemas
+- Forward -> consumers using the old schema, will be able to read from the new schema.
+- Forward transitive
+- FULL -> backward and forward
+- FULL transitive
+- None
+
+- **Backward** -> allow to delete field and add optional fields
+- **forward** -> add fields and delete optional fields
+- **full** -> modify optional fields
+
+### 8 Kafka Connect
+
+A tool for provide integration with other systems
+
+- Source connectors => pull changes into kafka
+- Sink connectors => push changes to other changes
+
+Connectors are typical reusable like a JDBC connector, and you probably will find in the internet.
+
+## 8 Kafka Security
+### 8.1 TLS Encryption
+
+1. Create certificate authority
+2. Create signed certificates
+3. Configure brokers to enable TLS and use the certificates
+4. Configure client to connect securely and trust the certs
+
+### 8.2 Client authentication
+
+Mutual TLS with client certificates.
+
+### 8.3 ACL authorization
+
+Give granular control on what each client can do.
+
+ACL consist:
+- Principal -> the user doing the action
+- allow/deny
+- operation -> read or write
+- Host -> which host can you use
+- Resource pattern -> resource we allow, such as topic or broker
+
+## 9 Testing Kafka code
+###  9.1 Testing  producers
+Kafka comes with some test fixtures, like the `MockProducer`.
+
+```java
+mockProducer = new MockProducer<>(false, new IntegerSerializer(), new StringSerializer);
+myProducer = new MyProducer()
+myProducer.producer = mockProducer;
+```
+
+```java
+myProducer.send(1, "hola");
+mockProducer.completeNext();
+List<ProducerRecord<Integer,String>> = mockProducers.history()
+```
+
+### 9.2 Testing consumers
+```java
+mockConsumer = new MockConsumer<>(OffsetResetStrategy.EARLIEST);
+myConsumer = new MyConsumer();
+myConsumer.consumer = mockConsumer;
+```
+
+```
+ConsumerRecord<Integer, String> record = new ConsumerRecord(topic, 0, 1, 2, "test values");// parition = 0, offset = 1; key = 2
+mockConsumer.assign(Arrays.asList(new TopicPartition(topic, 0)));
+... bored of the boilerplate...
+mockConsumer.addRecord(record);
+```
+
+### 9.3 Testing kafka streams
+
+```java
+Topology topology = myStreams.topology.
+testDriver = new TopologyTestDriver(topology, props);
+```
+
+```
+testDriver.pipeInput(record);
+
+ProducerRecord<Integer, String> outputRecord = testDriver.readOutPut("test_output_topic", new IntegerDeserializer(), new StringDeserializer())
+```
+
+```
+OutputVerifier.compareKeyValue(outputRecord, 1, "reverse")
+```
+
+## 10 Working with clients
+### 10.1 Monitoring clients
+
+If client is in Java -> you can use JMX, adding the parameters at the cli launch
+
+- Producers metrics: `response-rate`, `request-rate`, `request-latency-avg`, `outgoing-byte-rate`, `io-wait-time-ns-avg`
+- Consumer metrics: `records-lag-max` `bytes-consumed-rate` `records-consumed-rate` `fetch-rate`
