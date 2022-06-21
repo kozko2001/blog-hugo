@@ -13,7 +13,7 @@ date: 2020-08-09 00:00:00
 * this is problematic for big vocabulary, becoming longer than need to train
 * We can build a frequency table for each category (inn sentimental analysis is would be one for positive and one for negative). So basically count how many time each word appears in a positive tweet, and how many times a word appears in a negative tweet
 * With a frequency table we can create a frequency representation of the tweet as [1 <- bias, sum of positive frequencies, sum of negative frequencies]  
-	* ![](<../images/FrequencyTable.png>)
+	* ![](<../obsidian/images/FrequencyTable.png>)
 * Preprocessing:
 	* Eliminate [Stop Words](../stop-words) and punctuation characters.
  	* 
@@ -81,7 +81,7 @@ date: 2020-08-09 00:00:00
  
 - What is the problem of using euclidean distance for word vector representation? depending on number of occurrence of the words, the distance can be different and what we can use to overcome this problem? Cosine similarity  
  
-- ![](<../images/Screenshot 2020-08-12 at 11.33.22.png>)
+- ![](<../obsidian/images/Screenshot 2020-08-12 at 11.33.22.png>)
  
  > 
 

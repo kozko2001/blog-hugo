@@ -529,7 +529,7 @@ Types of DNS entries
 
 **What is a VPC**: A data center in the cloud, is where you deploy resources!
 
-![](<../images/VPC diagram.png>)
+![](<../obsidian/images/VPC diagram.png>)
 - trafic comes from the internet gateway
 - and goes to the router in the VPC
 - router redirect to route tables
@@ -559,7 +559,7 @@ Default VPC:
 - redundant inside the AZ
 - after creating a NAT gateway into the public subnet => you need to update the routing table of the private subnet to route 0.0.0.0 to the nat-gateway
 
-![](<../images/VPC - NAT GATEWAY.png>)
+![](<../obsidian/images/VPC - NAT GATEWAY.png>)
 
 ### Network Access control Lists (ACL)
 - rules for allow deny trafic
