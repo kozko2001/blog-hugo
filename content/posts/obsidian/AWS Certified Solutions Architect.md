@@ -236,7 +236,7 @@ S3 is redundant in 3 AZ automatically.
 - You might seem 503 slow down, if the app is updating to many version in a versioned bucket
 
 ### MFA
-We can add MFA to bucket, to make sure that updates and deletes are need to have a second authentication
+We can add MFA to bucket, to make sure that updates and deletes are need to have a second authentication.
 
 ### Server and Object LEvel Access Logging
 - S3 have the ability to log all the access done to S3 objects for compliance
