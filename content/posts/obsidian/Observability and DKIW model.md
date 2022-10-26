@@ -7,7 +7,7 @@ date: 2020-10-17 00:00:00
 
 DKIW (Data, Knowledge, Information and Wisdom) model, identifies the path to extract meaningful information from raw data and convert it into rules for decisions.
 
-![](<../images/Observability and DKIW.png>)
+![](<../obsidian/images/Observability and DKIW.png>)
 
 For system observability, this is quite interesting. There is normal levels of maturity in this systems.
 
