@@ -23,3 +23,22 @@ date: 2022-10-25 00:00:00
 	- The world's is changing so fast thatis turning all of us into amateurs
 	- The best way to start sharing is to think something you want to learn and make a commitment in front of others
 	- If your work is not online, it doesn't exist
+## chapter 2
+- Artist can share two kinds of experience, the final art piece, and the process to get to the art piece
+	- Traditionally artists hide the process part
+	- Vulnerability feeling of sharing your process 
+- **Become a documentarian of your work**
+
+## chapter 3
+
+- Share a little each day
+	- Block sometime, reflect on what you did today and share
+	- Don't share anything, 
+		- Share like if everybody could fire you
+		- Is it interesting? Is it useful?
+		- If not sure, better o save it for later
+	- Stock and flow
+		- Stock is content that is as useful today that in 2 years, is content audience search for it
+		- Flow is the stream of daily content
+		- Create a balance between both, patterns will emerge from your flow, you can organize them to create stock
+	- 
