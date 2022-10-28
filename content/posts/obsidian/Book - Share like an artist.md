@@ -41,4 +41,7 @@ date: 2022-10-25 00:00:00
 		- Stock is content that is as useful today that in 2 years, is content audience search for it
 		- Flow is the stream of daily content
 		- Create a balance between both, patterns will emerge from your flow, you can organize them to create stock
-	- 
+## chapter 4
+- During years we build up aa mental scratch book, what we like, what we follow, who is our hero
+- That influence is worth sharing
+- 
