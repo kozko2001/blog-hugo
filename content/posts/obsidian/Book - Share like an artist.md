@@ -43,5 +43,8 @@ date: 2022-10-25 00:00:00
 		- Create a balance between both, patterns will emerge from your flow, you can organize them to create stock
 ## chapter 4
 - During years we build up aa mental scratch book, what we like, what we follow, who is our hero
-- That influence is worth sharing
+	- That influence is worth sharing
+	- If you like something, don't hide it,don't think what others will think about it, be honest
+## chapter 5
+- Truth is, our work doesn't speak for it self. Stories you tell of your work, have a huge impact on how otherd value it
 - 
