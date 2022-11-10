@@ -47,4 +47,40 @@ date: 2022-10-25 00:00:00
 	- If you like something, don't hide it,don't think what others will think about it, be honest
 ## chapter 5
 - Truth is, our work doesn't speak for it self. Stories you tell of your work, have a huge impact on how otherd value it
-- 
+## chapter 6
+> Make people better at something they want to be better
+- Teach what you learnt - share references, reading list etc...
+- Teaching doesn't substract value of what you do, it adds up
+	- Generateore interest in your work
+	- You receive education in return
+## chapter 7
+- Don't be too self centered. Real art comes in two way streets, feedback and collaboration is the way to goo. If you only show your work, then people would get sick
+	- If you want fans, you have to be a fan first
+	- If you want to be part of a community, first be a good citizen in the community 
+- Look for hearth not followers
+	- Be an interesting person and connections would grow
+	- Can you be a more interesting person?
+	- Talk about things you a
+- Meeting in IRal (in the real world) - meeting online is great, converting them into friends is even better
+
+## chapter 8
+- We have to be ready for the criticism
+	- Relax, nobody died from criticism 
+	- Strength it, it's a way to improve, and roll with the punches, you can't control the source of criticism but you can control how you react. Having your work hated by certain people may be a badge of honor
+	- Protect vulnerable areas, ifyou could not handle the criticism don't make it public
+	- Keep your balance, you are not your work, criticism is about your work
+> Not care about what everybody thinks, care about what the right people think
+- Don't feed the troll, is not interested in improving your work, only in provoking 
+	- Make use of the block button and delete comment
+## chapter 9
+- Don't be shy to sell, most of the most amazing work has been possible thanks to money (people need to eat)
+- Recollect emails even if you have nothing to sell right now
+## chapter 10
+- Work is never finished, just abandoned 
+	- Don't quit the show if you want to success, you need to stick
+- Use your old projects to inspire new ones, what was missing? What could be done differently 
+- You need to fill up with inspiration for next works 
+	- During the commute -> doodle,read, write
+	- Exercise -> relaxes our mind -> opens to new thoughts
+	- Contact with nature -> disconnect from electronics
+
