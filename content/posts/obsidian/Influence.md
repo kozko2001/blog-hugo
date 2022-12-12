@@ -1,6 +1,6 @@
 
 ---
-title: Book - Influence
+title: Influence
 date: 2021-02-01 00:00:00
 ---
 ---
