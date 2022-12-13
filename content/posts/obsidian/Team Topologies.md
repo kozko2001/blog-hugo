@@ -5,7 +5,7 @@ date: 2022-12-11 00:00:00
 ---
 ---
 
-### Chapter 1 - Problem with org charts
+## Chapter 1 - Problem with org charts
 
 Most IT organizations have a big challenge 
 	of being fast (time to market), adaptable (pivot) and being safe (great experience for the user). 
@@ -19,7 +19,7 @@ This creates bottleneck's communications, but don't worry, great employes will f
 
 in Team Topologies, we see the team as an indivisible block with explicit  expectations and interaction mode to work with other teams. With these ingredients expectations are clears and inter-trust team grows
 
-#### The Conway Law
+### The Conway Law
 
 > Organizations which designs systems... are constrained to produce designs which are copies of the communication structures of the organization
 
@@ -31,7 +31,7 @@ Example:
 
 **Inverse conway maneuver**: Where org setup teams to produce the architecture you want to produce -> forcing the communication channels by setting the teams
 
-#### Cognitive Load and Bottlenecks
+### Cognitive Load and Bottlenecks
 
 **Cognitive Load**: Everybody has a limit of how much information they can hold in their brain. 
 
@@ -39,7 +39,7 @@ If we don't take into account **cognitive load**, teams will spread thin trying 
 
 But often, we plan new products as if the team that is going to do them don;t have anything else to do -> raising the cognitive load -> lowering mastering -> probably lowering morale
 
-### Chapter 2 - Conway Law 
+## Chapter 2 - Conway Law 
 
 > If the architecture of the system and the architecture of the organization are at odd, the arquitectures of the organization wins
 
@@ -59,7 +59,7 @@ Good part of it, is we can use old fashion software architecture concepts to des
 - High Cohesion
 - Clear and appropiate cross-team testing 
 
-#### Restrict unnecessary communication
+### Restrict unnecessary communication
 
 Many org assume that more communication is always better. But it's not the case
 
@@ -69,7 +69,7 @@ If we could achieve low-bandwidth communication between teams and still build an
 
 If in the org, there is need to everybody approve something, or everybody to chip in into opinions, that would lead to monolithic architectures that are convoluted. Is better a cohesive view even if it's not your best ideal, that a mix and match between different visions.
 
-### Team First Thinking
+## Team First Thinking
 
 **What is a team**: a stable group of 5 to 9 people who works toward a shared goal as a unit. A team has whole ownership of a value stream.
 
@@ -83,7 +83,7 @@ We consider the team to be the smallest entity of delivery
 **Two teams should not have ownership of the same system**, that way feedback is direct and there is a cohesive vision for the system.
 
 
-#### Dunbar Number 
+### Dunbar Number 
 
 There is a limit on our social skills as a human.
 
@@ -94,7 +94,7 @@ There is a limit on our social skills as a human.
 
 teams around 5 to 9 -> which is the number on which we can have real high trust -> which is necessary for a team.
 
-####  Tucjman Teal Perfomance model
+###  Tucjman Teal Perfomance model
 1. **Forming**: assembling for the first time -> we still shy and correct
 2. **Storming**: Working throught differences (personal and and professional) -> defining ways of working
 3. **Norming**: Ways of workings start to be a standard and team mates starts to see them self as a unit.
@@ -102,11 +102,11 @@ teams around 5 to 9 -> which is the number on which we can have real high trust 
 
 This whole cycle could take around 3 weeks to 3 months. We should try to minimize the amount of time.
 
-#### Reward the whole team, not individuals
-#### Embrace diversity in teams
-#### Good boundaries minimize cognitive load
+### Reward the whole team, not individuals
+### Embrace diversity in teams
+### Good boundaries minimize cognitive load
 
-#### Restrict team responsabilities to match team cognitive load
+### Restrict team responsabilities to match team cognitive load
 
 **Cognitive Load**: Total amount of mental effort being used in the working memory
 
@@ -120,5 +120,37 @@ Leaving more space for germane cognitive load, which is where the knowledge work
 
 If the stress of a team by the domain they are working is greater that the cognitive load of the team, the team will stop acting as a high performing units, and will start to act as as loosely associated group of individuals.
 
-The team, also needs space to continuously 
-####  Match Software boundary size to team cognitive load
+The team, also needs space to continuously reduce the cognitive load they are creating.
+
+###  Match Software boundary size to team cognitive load
+
+### Limit the number and type of domains per team
+
+Types of domains:
+- **Simple**: Most of the work has a clear path to action
+- **Complicated**: Changes need to be analized and might need a few iterations to get it right
+- **Complex**: Solutions require a lot of experimentation and discovery
+
+Heuristics
+
+1. If a domain is too big for a team, split the domain into subdomains and assign to the team
+2. A single team can handle 2 or 3 **simple** domains. 
+3. A team responsable for a **complex** domain, should not have any other domain
+4. Avoid a single team, having 2 complicated domains, seems possible with big teams, but in reality the team will act a two (team mates will specialize into one or another domain)
+
+### Match software boundary size to team cognitive load
+
+Instead of choosing between monolith or microservice architecture. Design the software to fit the maximium team cognitive load. that will unblock safe, fast software delivery without extra costs.
+
+How can we increase team cognitive load
+
+- Have a good environment (physical or remote)
+- Minimize team distractions
+	- reduce meetings
+	- assign a dedicated person to support queries and so forth
+- Change the management style from "How" to What even Why
+- Increase quality of developer experience
+- Use a platform that is explicitly designed to reduce cognitive load for teams that build software on top of it
+- 
+
+
