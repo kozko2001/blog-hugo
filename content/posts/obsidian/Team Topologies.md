@@ -69,7 +69,7 @@ If we could achieve low-bandwidth communication between teams and still build an
 
 If in the org, there is need to everybody approve something, or everybody to chip in into opinions, that would lead to monolithic architectures that are convoluted. Is better a cohesive view even if it's not your best ideal, that a mix and match between different visions.
 
-## Team First Thinking
+## 3. Team First Thinking
 
 **What is a team**: a stable group of 5 to 9 people who works toward a shared goal as a unit. A team has whole ownership of a value stream.
 
@@ -151,6 +151,39 @@ How can we increase team cognitive load
 - Change the management style from "How" to What even Why
 - Increase quality of developer experience
 - Use a platform that is explicitly designed to reduce cognitive load for teams that build software on top of it
-- 
+
+
+## Chapter 4. Static Team Topologies
+
+To get most of our teams as possible, we need to consciously design our teams, instead of organic.
+
+We should discourge team members o be shufled too much frequently. This leads to volatile teams assembled for projects, instead of team first approach that will build and mantain the projects.
+
+### Shape team intercommunication to enable flow and sensing
+
+Some organizations seem to assume that software delivery is one-way process, leading from specificiation to design, from design to coding, from coding to testin, from testing to releasing.
+
+Instead, teams that are exposed to live environment tend to address user-visible and operational problems much more rapidly.
+
+A team should have all the skills necessary, design, develop, test, deploy and operate. 
+
+Such team (cross-functional) can bring high value to an organization by delivering cross-component, customer-centric features much faster than multiple "component" teams. But for this to work... they need to be able to deliver features into production without waiting for other teams.
+
+### Product teams need a support system
+
+The key to remain autonomous is to convert external dependencies to non-blocking. For example is extremly difficult to ensure a separate QA team will be available to evaluate a new feature exactly when the product team finishes
+
+Non blocking dependencies, often take the form of self-service capabilities (example creating pipelines, onitoring tools) developed and mantained by other teams.
+
+Without that, product teams end up frequently waiting on "hard dependencies" to functional teams (like QA, infrastructure etc..). This increase the friction as product teams are pressured to deliver faster.
+
+### Cloud teams don't create application infrastructure
+
+Since product teams, need this self-service approach, they cannot wait for a cloud team to provision in the infrastructure. On the other hands, Cloud teams are accountable for complience  and risk and can't let the product teams build provision whatever they want.
+
+The solution: Cloud teams should provide a high-quality service that is able to provision the product-teams needs, with all the requirements, and product teams can only use this services.
+
+So, the design of the cloud is done by the Cloud team, but the provision is done  by the product team.
+
 
 
