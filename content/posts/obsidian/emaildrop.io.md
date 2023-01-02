@@ -1,7 +1,7 @@
 
 ---
 title: Disposable e-mail
-date: 2022-08-08 00:00:00
+date: 2023-08-08 00:00:00
 ---
 ---
 - ## emaildrop.io

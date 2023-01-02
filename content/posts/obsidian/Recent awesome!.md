@@ -1,7 +1,7 @@
 
 ---
 title: Recent awesome - dev blog
-date: 2022-09-18 00:00:00
+date: 2023-09-18 00:00:00
 ---
 ---
 
