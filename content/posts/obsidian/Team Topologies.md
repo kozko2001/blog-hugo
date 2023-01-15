@@ -186,4 +186,85 @@ The solution: Cloud teams should provide a high-quality service that is able to 
 So, the design of the cloud is done by the Cloud team, but the provision is done  by the product team.
 
 
-## Chapter 5.
+## Chapter 5. The four fundamental Team topologies
+
+### Steam-aligned teams
+
+A stream is the continuous flow of work aligned to a business domain. This requires clarity of purpose and responsability so that multiple teams can coexist, each one with their own flow of work. This clarity helps to have a steady flow of work that the team can priotarize.
+
+
+
+- Is the primary team type in an organizations
+- The purpose of the other team types, is to reduce the burden of the stream-aligned teams
+- Cause they work on the delivery, they are closer to the customer and able to quickly incorporate feedback while monitoring their software in production
+
+Capabilities that all Stream aligned teams should have
+- Application security
+- Commercial and operational viability analysis
+- Design and Architecture
+- Development and Coding
+- Infrastructure and operability 
+- PRoduct management and ownership
+- Testing and quality assurance
+- User Experience
+
+Each of this capabilities should not map to and individual role in the team
+
+Team members should strive to achieve "autonomy, mastery and purpose"
+
+### Enabling teams
+
+Enable teams helps stream-aligned teams to use best-practices without the burden of having to investigate and experiment.
+
+Comes enabling-teams to the rescue. 
+
+The way enabling-teams works, is completly oposite to ivory towers, insteads of defining policies for all other teams, the idea is that they are in contact with all the teams, and when a team misses a capability they jump in, working hand by hand with the team.
+
+This way stream-aligned teams have autonomy.
+
+- They should listen to what stream-aligned teams need
+- Should try to stay ahead of the curve before the need is expected from stream-aligned team
+- Should acts as a messenger (new libraries, new bugs, this is unmantained better not use it anymore)
+- Occasionally help if internal or external services are too hard to work with
+- Promote learning in the whole organization (create communities)
+
+If you got a "architect" teams, the most sensible thing would be to transform it into an full time enabling team, let's help the actual dev to upskill their abilities instead of making policies.
+
+### Complicated-Subsystem Teams
+
+All organizations have complicated systems, and we don't want to pollute all our tech landscape with the complexity of our ERP.
+
+They know how the complicate systems work, and collaborate to build solutions together with the stream-aligned teams to create easier interfaces to use the system
+
+### Platform Teams
+
+The purpose of the platform team, is to enable stream-aligned teams to deliver work, with substantial autonomy. The stream-aligned team maintains full ownership of building, running and fixing the application in production.
+
+The platform teams provide internal services to reduce the cognitive-load for the stream-aligned teams to deliver the code to the users.
+
+Platform teams shoud have always in mind the "ease of use" of their internal services. They need to treat the services they offer as products, that are reliable, usable and fit for their purpose.
+
+### Avoid team siles in the flow of Change
+
+Generally speaking, teams composed only of people with a single functional expertise should be avoided if we want to deliver software rapidly and safely. Examples:
+
+- Testing // QA
+- Database administration
+- UX
+- Architecture
+
+### A good platform is "Just Big Enough" // Thinnest viable platform
+
+We don't need to go crazy creating a new platform, each thing we make we have to maintain and will be hard to replace and change.
+
+Instead is more interesting to have good standards, templates and well-proven best practices that Dev team can use to innovate.
+
+Specially with cloud, where we can outsource all this services, and what we need to do is to:
+
+> Make it easier for developer to do the right thing in the right way
+
+
+
+
+### Chapter 6. Choose team-first boundaries
+
