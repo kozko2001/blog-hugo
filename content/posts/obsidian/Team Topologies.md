@@ -264,7 +264,5 @@ Specially with cloud, where we can outsource all this services, and what we need
 > Make it easier for developer to do the right thing in the right way
 
 
-
-
 ### Chapter 6. Choose team-first boundaries
 
