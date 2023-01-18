@@ -266,3 +266,14 @@ Specially with cloud, where we can outsource all this services, and what we need
 
 ## Chapter 6. Choose team-first boundaries
 
+We want to align teams to the flow of work, meaning for most of the work, we want to minimize the number of teams that need to be involved (coordinated). In this way we increase autonomy and also minimize the wait times.
+
+Also to have high performance teams, autonomy and ownership is crucial, teams should own, nurture and improve systems under there umbrella. That means that finding the correct splits of systems to teams is a quite important decision.
+
+To split the tech landscape of systems to team boundaries, we will talk about "Fracture Planes" (places were is most easy to split things)
+
+### Fracture Place: Busines domain bounded context
+
+Bounded contexts is one of the artifacts of applying DDD, it would give us different subsistems that have an internal model and a business reason to exists.
+
+Having a clear goal from the organization, means clarity, autonomy and 
