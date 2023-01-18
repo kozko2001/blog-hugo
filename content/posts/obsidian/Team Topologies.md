@@ -276,4 +276,73 @@ To split the tech landscape of systems to team boundaries, we will talk about "F
 
 Bounded contexts is one of the artifacts of applying DDD, it would give us different subsistems that have an internal model and a business reason to exists.
 
-Having a clear goal from the organization, means clarity, autonomy and 
+This are ideal ways to split the systems, cause you get clear business domain and therefore goals. 
+
+And with that, you align the teams with the work of flow (most work of a bounded context not need to be coordinated with other bounded contexts)
+
+### Fracture plane: Regulatory Compliance
+
+In highly regulated industries, regulatory requirements set hard borders for software. They force organizations to adopt specific mechanisms for auditing, testing etc...
+
+So maybe it makes sense that these systems have different deployments strategies (manual stepts etc...) that the rest of the system
+
+### Fracture plane: Change Cadence
+
+Spltting off the parts of the system that typically change at different speeds allow them to change more quickly.
+
+### Fracture plane: Team Location
+
+Use co-locations or true remote first approach
+
+With covid, that lost most of the sense.
+
+### Fracture plane: Risk
+
+Different risk profiles might coexist withtin a large monolith. Taking more risk means accepting a higher propability of system or outcome failure in favor of getting changes into the hands of customers faster.
+
+### Fracture plane: Performance Isolation
+
+### Fracture plane: Technology
+Technology is one of the typical ways to split teams, divide the team between frontends/backends.
+
+This split normally introduce more constraints, and reduce the flow of work, cause now you have dependencies for almost each work item, and the teams are less autonomous.
+
+### Fracture plane: User personas
+Dependending on the solutions provided, maybe different user personas need a set of different features.
+
+For example in tier price products, maybe a team could be focused on making the high end features that customers want to pay more for it (ie. security, data etc...) and another is doing basic features that will be used for more users.
+
+## Chapter 7: Team interaction modes
+
+One thing to be avoided is the need for all teams to communicate with all other teams to achieve their end.
+
+So it's important to consider how each team interact with each other. We think there should be 3 types of team interactions.
+
+- Collaboration: Working closely together with another team
+- X-as-a-Service: Consuming/providing something with minimal collaboration
+- Facilitating: Help another team to clear impediments.
+
+### Collaboration
+Collaboration interaction mode is suitable where a high deegree of adaptability or discovery is needed, particularly when expliring new technologies or techniques. That's because it avoids costly hand-off between teams.
+
+Be aware that collaboration should not be a long-term way to interact between teams, it should be during a limited time where both teams get the results of the discoveries. 
+
+Too much collaborations might be a sympthom of incorrect domain boundaries or incorrect mix of skills in a team.
+
+### X-as-a-service
+
+X-as-a-service is suited when there is no discovery going on, is clear what we need, and there is a team responsible for providing to the rest of the teams. 
+
+Teams provides an artifact (library, platform etc...) that just works lowering the cognitive load of the teams using it and also making them more predictable.
+
+There is great clarity on who own's what, and less context is needed between the teams.
+
+The team that provides, should have a strong sense of responsability towards the solution they provide. They should treat it like a real product, making sure they are building what teams need, priotarize accordingly, making sure it works as intended all the team and the ease of use (Dev Ex)
+
+### Facilitating
+
+Suited on siturations where a team would benefit from the active help of another team facilitating/coaching some aspect of their work
+
+The goal is to enable the teams to be more effective, learn more quickly etc...
+
+
