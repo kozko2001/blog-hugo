@@ -346,3 +346,30 @@ Suited on siturations where a team would benefit from the active help of another
 The goal is to enable the teams to be more effective, learn more quickly etc...
 
 
+## Chapter 8: Evolve team structures with organizational sensing
+
+the configuration of teams need to  evolve, depending on the stage of the organization.
+
+The normal way is that teams **collaborate** a lot at the beginning as they are doing **discovering**. But this puts a more cogniteve load to both teams (both teams needs to understand the other side) but it worth it for the reduce lag it brings to the discovery. 
+
+X-as-a-service is better for when predictable delivery is more important than rapid discovery.
+
+So it's usual that teams first start very close collaboration, and then they move to X-as-a-service interaction
+
+Also close collaboration don't scale well across the organization, the aim should be to create well-defined platform that other teams can simply use.
+
+### Triggers for Team topologies evolution
+
+#### Software has grown too large for one team
+- System is too large for the team cognitive load
+- That means that changesi n specific part of the system are always done by the same team mates -> creating silos
+- that cna actually create hard dependencies on people instead of teams, increasing the risk of any development
+
+#### Delivery cadence is becoming slower
+- Feels like changes take more time to get to the users
+- Team is losing autonomy, possibly waiting for other teams to do some function (testing, platform etc...)
+
+
+#### Multiple business services rely on a large set of underlying services
+
+
