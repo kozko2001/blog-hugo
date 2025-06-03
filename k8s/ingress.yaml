@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: blog-ingress
+  namespace: blog
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    kubernetes.io/ingress.class: traefik
+    kubernetes.io/tls-acme: "true"
+spec:
+  tls:
+    - hosts:
+      - blog.allocsoc.net  # Replace with your desired subdomain
+      secretName: blog-allocsoc-net-tls
+  rules:
+    - host: blog.allocsoc.net
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: blog-service
+                port:
+                  number: 80
