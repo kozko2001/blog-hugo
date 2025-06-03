@@ -78,7 +78,7 @@ jobs:
       - name: Trigger FluxCD Webhook
         run: |
           # Calculate webhook URL with HMAC signature
-          PAYLOAD='{"ref":"refs/heads/main","repository":{"clone_url":"${{ github.server_url }}/${{ github.repository }}.git"}}'
+          PAYLOAD='{"ref":"refs/heads/master","repository":{"clone_url":"${{ github.server_url }}/${{ github.repository }}.git"}}'
           SIGNATURE=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "${{ secrets.FLUX_WEBHOOK_SECRET }}" | sed 's/^.* //')
           
           curl -X POST \
