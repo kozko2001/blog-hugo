@@ -42,8 +42,8 @@ jobs:
           IMAGE_TAG: prod
         run: |
           git_hash=$(git rev-parse --short "$GITHUB_SHA")
-          docker build -t $HARBOR_REGISTRY/$REPOSITORY:$git_hash .
-          docker push $HARBOR_REGISTRY/$REPOSITORY:$git_hash
+          docker build -t $HARBOR_REGISTRY/blog/blog:$git_hash .
+          docker push $HARBOR_REGISTRY/blog/blog:$git_hash
       - name: get config
         shell: bash
         env:
