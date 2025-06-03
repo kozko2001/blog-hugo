@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: nginx:alpine
+        image: ${NEW_IMAGE}
         ports:
         - containerPort: 80
           name: http
