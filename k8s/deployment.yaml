@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ${NEW_IMAGE}
+        image: harbor.allocsoc.net/blog/blog:4928cee
         ports:
         - containerPort: 80
           name: http
