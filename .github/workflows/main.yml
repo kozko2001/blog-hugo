@@ -36,35 +36,52 @@ jobs:
         run: hugo --minify
 
       - name: Build, tag, and push image to Harbor
-        env:
-          HARBOR_REGISTRY: harbor.allocsoc.net
-          REPOSITORY: blog
-          IMAGE_TAG: prod
         run: |
           git_hash=$(git rev-parse --short "$GITHUB_SHA")
-          docker build -t $HARBOR_REGISTRY/blog/blog:$git_hash .
-          docker push $HARBOR_REGISTRY/blog/blog:$git_hash
-      - name: get config
-        shell: bash
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        run: |
-          git config --global user.email "kozko2001@gmail.com"
-          git config --global user.name "kozko2001"
-          git clone "https://$API_TOKEN_GITHUB@github.com/kozko2001/k8s-config.git" "k8s-config"
+          docker build -t harbor.allocsoc.net/blog/blog:$git_hash .
+          docker push harbor.allocsoc.net/blog/blog:$git_hash 
+  update-manifests:
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.API_TOKEN_GITHUB }}
 
-      - name: update version
-        shell: bash
+      - name: Update image in deployment
         run: |
+          # Update the image tag in deployment.yaml
           git_hash=$(git rev-parse --short "$GITHUB_SHA")
-          sed -i "s/.*097742747651.dkr.ecr.eu-west-1.amazonaws.com\/blog:.*/        image: 097742747651.dkr.ecr.eu-west-1.amazonaws.com\/blog:$git_hash/" k8s-config/blog/service.yml
-      - name: push config
-        shell: bash
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        run: |
-          git -C k8s-config add .
-          git -C k8s-config status
+          NEW_IMAGE=harbor.allocsoc.net/blog/blog:$git_hash
+          sed -i 's/image: .*/image: ${NEW_IMAGE}/' k8s/deployment.yaml
 
-          git -C k8s-config commit  -m "updated blog version"
-          git -C k8s-config push
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add k8s/deployment.yaml
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update image to ${{ github.sha }}"
+            git push
+          fi
+  trigger-flux:
+    needs: [deploy, update-manifests]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Trigger FluxCD Webhook
+        run: |
+          # Calculate webhook URL with HMAC signature
+          PAYLOAD='{"ref":"refs/heads/main","repository":{"clone_url":"${{ github.server_url }}/${{ github.repository }}.git"}}'
+          SIGNATURE=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "${{ secrets.FLUX_WEBHOOK_SECRET }}" | sed 's/^.* //')
+          
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Hub-Signature-256: sha256=$SIGNATURE" \
+            -H "X-GitHub-Event: push" \
+            -d "$PAYLOAD" \
+            "https://flux.allocsoc.net/hook/${{ secrets.FLUX_WEBHOOK_SECRET }}"
