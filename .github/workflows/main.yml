@@ -57,7 +57,7 @@ jobs:
           # Update the image tag in deployment.yaml
           git_hash=$(git rev-parse --short "$GITHUB_SHA")
           NEW_IMAGE=harbor.allocsoc.net/blog/blog:$git_hash
-          sed -i 's/image: .*/image: ${NEW_IMAGE}/' k8s/deployment.yaml
+          sed -i "s|image: .*|image: ${NEW_IMAGE}|" k8s/deployment.yaml
 
       - name: Commit and push changes
         run: |
